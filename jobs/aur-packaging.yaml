@@ -1,0 +1,104 @@
+---
+
+- project:
+    name: aur
+    package:
+      !include: aur-package-list.yaml
+    jobs:
+      - "aur-package-{package}"
+      - "aur-package-dataloop-agent"
+      - "aur-package-linux-git"
+
+- defaults:
+    name: aur
+    description: |
+      This project has been created, and is managed, by Jenkins Job Builder.
+      Do not edit this via the web interface. Any changes may be lost at any
+      time.
+    logrotate:
+        daysToKeep: -1
+        numToKeep: 10
+    properties:
+      - authorization:
+          jstephenson:
+            - job-build
+            - job-read
+            - job-extended-read
+      - throttle:
+          enabled: true
+          max-per-node: 1
+          max-total: 0
+          categories:
+            - aur-packaging
+          option: category
+    node: aur-builder
+    wrappers:
+      - workspace-cleanup
+      - ansicolor
+    triggers:
+      - pollscm:
+          cron: "@hourly"
+      - timed: '@yearly'
+    builders:
+      - shell: |
+          #!/bin/bash -ex
+          sudo pacman -Syu --noconfirm
+          makepkg --nosign --syncdeps --noconfirm
+    publishers:
+      - description-setter:
+          regexp: 'Finished making: (\S* \S*)'
+      - ssh:
+          site: repo-manager
+          target: private
+          source: '*.pkg.tar.xz'
+          # use-pty: true
+          command: 'cd private && repo-add -n -R private.db.tar.gz *.pkg.tar.xz'
+          timeout: 300000
+          fail-on-error: true
+      - archive:
+          artifacts: '*.pkg.tar.xz'
+          allow-empty: 'false'
+          only-if-success: true
+
+- job-template:
+    name: aur-package-{package}
+    display-name: "AUR Packaging ({package})"
+    defaults: aur
+    scm:
+      - git:
+          url: 'https://aur.archlinux.org/{package}.git'
+          branches:
+            - '*/master'
+          skip-tag: true
+
+# Custom template for the linux-git project, which will also ensure the package
+# is built weekly on a Monday morning, usually after the next rc release
+
+- job-template:
+    name: aur-package-linux-git
+    display-name: "AUR Packaging (linux-git)"
+    defaults: aur
+    scm:
+      - git:
+          url: 'https://aur.archlinux.org/linux-git.git'
+          branches:
+            - '*/master'
+          skip-tag: true
+    triggers:
+      - pollscm:
+          cron: "@hourly"
+      - timed: 'H H(1-4) * * 1'
+
+# Custom template sepcifically for dataloop-agent, which will put the packaging
+# information directly from my private fork of the main repository.
+
+- job-template:
+    name: aur-package-dataloop-agent
+    display-name: "AUR Packaging (dataloop-agent)"
+    defaults: aur
+    scm:
+      - git:
+          url: 'https://github.com/jonathanio/dataloop-archlinux.git'
+          branches:
+            - '*/master'
+          skip-tag: true
