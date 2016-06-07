@@ -57,7 +57,10 @@
       - shell:
           #!include-raw-escape: kitchen-test.sh
     publishers:
-      - github-notifier
+      - archive:
+          artifacts: '.kitchen/logs/*.log'
+          allow-empty: true
+          only-if-success: false
 
 - job-template:
     name: "ansible-role-{role}"
