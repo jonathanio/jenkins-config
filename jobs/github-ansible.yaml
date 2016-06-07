@@ -50,11 +50,11 @@
             - master
           status-context: "test-kitchen(ec2)"
           triggered-status: "Request sent to Jenkins server..."
-          started-status: "Running test-kitchen/serverspec against ansible-role-{role}..."
+          started-status: "Running test-kitchen against ansible-role-{role}..."
         # success-status: "test-kitchen(ec2)/serverspec passed"
         # failure-status: "test-kitchen(ec2)/serverspec failed!!"
         # error-status: "test-kitchen(ec2)/serverspec errored!"
-          build-desc-template: ""
+          build-desc-template: "PR$pullId: $title"
     builders:
       - shell:
           #!include-raw-escape: kitchen-test.sh
