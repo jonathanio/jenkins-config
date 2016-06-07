@@ -16,7 +16,7 @@
       time.
     logrotate:
         daysToKeep: -1
-        numToKeep: 25
+        numToKeep: 50
     properties:
       - authorization:
           jonathanio:
@@ -29,8 +29,6 @@
           anonymous:
             - job-read
             - job-extended-read
-      - github:
-          url: https://github.com/jonathanio/ansible-role-{role}/
     scm:
       - git:
           url: 'https://github.com/jonathanio/ansible-role-{role}.git'
@@ -48,6 +46,13 @@
           permit-all: true
           white-list-target-branches:
             - master
+          status-context: "test-kitchen(ec2)"
+          triggered-status: "Request sent to Jenkins server..."
+          started-status: "Running test-kitchen/serverspec against ansible-role-{role}..."
+        # success-status: "test-kitchen(ec2)/serverspec passed"
+        # failure-status: "test-kitchen(ec2)/serverspec failed!!"
+        # error-status: "test-kitchen(ec2)/serverspec errored!"
+          build-desc-template: ""
     builders:
       - shell:
           #!include-raw-escape: kitchen-test.sh
