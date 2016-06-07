@@ -1,0 +1,59 @@
+---
+
+- project:
+    name: ansible-roles
+    role:
+      !include: ansible-roles-list.yaml
+    jobs:
+      - "ansible-role-{role}"
+
+- defaults:
+    name: ansible-role
+    display-name: "Ansible Role Integration Test ({role})"
+    description: |
+      This project has been created, and is managed, by Jenkins Job Builder.
+      Do not edit this via the web interface. Any changes may be lost at any
+      time.
+    logrotate:
+        daysToKeep: -1
+        numToKeep: 25
+    properties:
+      - authorization:
+          jonathanio:
+            - job-configure
+            - job-read
+            - job-extended-read
+            - job-build
+            - job-workspace
+            - run-update
+          anonymous:
+            - job-read
+            - job-extended-read
+      - github:
+          url: https://github.com/jonathanio/ansible-role-{role}/
+    scm:
+      - git:
+          url: 'https://github.com/jonathanio/ansible-role-{role}.git'
+          branches:
+            - '**'
+          skip-tag: true
+    wrappers:
+      - workspace-cleanup
+      - ansicolor
+    triggers:
+      - github-pull-request:
+          admin-list:
+            - jonathanio
+          github-hooks: true
+          permit-all: true
+          white-list-target-branches:
+            - master
+    builders:
+      - shell:
+          #!include-raw-escape: kitchen-test.sh
+    publishers:
+      - github-notifier
+
+- job-template:
+    name: "ansible-role-{role}"
+    defaults: ansible-role
