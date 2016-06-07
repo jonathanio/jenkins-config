@@ -29,6 +29,8 @@
           anonymous:
             - job-read
             - job-extended-read
+      - github:
+          url: https://github.com/jonathanio/ansible-role-{role}/
     scm:
       - git:
           url: 'https://github.com/jonathanio/ansible-role-{role}.git'
