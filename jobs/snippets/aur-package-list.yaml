@@ -63,7 +63,7 @@
 - libindicator
 - libappindicator
 - dee
-- libdbusmenu-glib
+- libdbusmenu
 - geeqie-git
 - zfs-dkms
 - spl-dkms
