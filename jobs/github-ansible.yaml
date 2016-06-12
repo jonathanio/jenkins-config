@@ -14,9 +14,6 @@
       This project has been created, and is managed, by Jenkins Job Builder.
       Do not edit this via the web interface. Any changes may be lost at any
       time.
-    logrotate:
-        daysToKeep: -1
-        numToKeep: 50
     properties:
       - authorization:
           jonathanio:
@@ -31,6 +28,9 @@
             - job-extended-read
       - github:
           url: https://github.com/jonathanio/ansible-role-{role}/
+      - build-discarder:
+          days-to-keep: 365
+          num-to-keep: 50
     scm:
       - git:
           url: 'https://github.com/jonathanio/ansible-role-{role}.git'
