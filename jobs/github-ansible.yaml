@@ -51,13 +51,13 @@
           status-context: "test-kitchen(ec2)"
           triggered-status: "Request sent to Jenkins server..."
           started-status: "Running test-kitchen against ansible-role-{role}..."
-        # success-status: "test-kitchen(ec2)/serverspec passed"
-        # failure-status: "test-kitchen(ec2)/serverspec failed!!"
-        # error-status: "test-kitchen(ec2)/serverspec errored!"
+          success-status: "All serverspec tests via test-kithcen have passed."
+          failure-status: "One or more serverspec tests via test-kitchen has/have failed."
+          error-status: "test-kitchen reported an error running serverspec tests."
           build-desc-template: "PR$pullId: $title"
     builders:
       - shell:
-          #!include-raw-escape: kitchen-test.sh
+          !include-raw-escape: kitchen-test.sh
     publishers:
       - archive:
           artifacts: '.kitchen/logs/*.log'
