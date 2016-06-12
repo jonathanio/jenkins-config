@@ -51,9 +51,15 @@
           status-context: "test-kitchen(ec2)"
           triggered-status: "Request sent to Jenkins server..."
           started-status: "Running test-kitchen against ansible-role-{role}..."
+<<<<<<< HEAD
           success-status: "All serverspec tests via test-kithcen have passed."
           failure-status: "One or more serverspec tests via test-kitchen has/have failed."
           error-status: "test-kitchen reported an error running serverspec tests."
+=======
+          success-status: "All test-kitchen suites have passed."
+          failure-status: "One or more test-kitchen suites have failed!"
+          error-status: "Jenkins or test-kitchen has errored!"
+>>>>>>> f175b3af01b111994a956a0b42b5c14f4dfa62bd
           build-desc-template: "PR$pullId: $title"
     builders:
       - shell:
