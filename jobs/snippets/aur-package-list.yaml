@@ -71,3 +71,13 @@
 - spl-utils-linux
 - systemd-zpool-scrub
 - zxfer
+- influxdb
+- logstash
+- logstash-forwader
+- kibana
+- packetbeat
+- packetbeat-bin
+- topbeat
+- topbeat-bin
+- filebeat
+- filebeat-bin
