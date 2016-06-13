@@ -1,2 +1,11 @@
 - users
 - java
+- beats
+- collectd
+- elastic
+- grafana
+- influxdb
+- kibana
+- logstash
+- openvpn
+- strongswan
