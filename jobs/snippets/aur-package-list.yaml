@@ -73,7 +73,7 @@
 - zxfer
 - influxdb
 - logstash
-- logstash-forwader
+- logstash-forwarder
 - kibana
 - packetbeat
 - packetbeat-bin
