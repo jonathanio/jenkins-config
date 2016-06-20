@@ -38,7 +38,7 @@
     triggers:
       - pollscm:
           cron: "@hourly"
-      - timed: '@yearly'
+      # - timed: '@yearly'
     builders:
       - shell:
           !include-raw-escape: build-package.sh
