@@ -40,10 +40,9 @@
           cron: "@hourly"
       - timed: '@yearly'
     builders:
-      - shell: |
-          #!/bin/bash -ex
-          sudo pacman -Syu --noconfirm
-          makepkg --nosign --syncdeps --noconfirm
+      - shell:
+          !include-raw-escape: build-package.sh
+
     publishers:
       - description-setter:
           regexp: 'Finished making: (\S* \S*)'
