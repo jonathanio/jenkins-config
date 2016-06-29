@@ -2,7 +2,7 @@
 - java
 - beats
 - collectd
-- elastic
+- elasticsearch
 - grafana
 - influxdb
 - kibana
