@@ -81,6 +81,7 @@
 - topbeat-bin
 - filebeat
 - filebeat-bin
+- gox
 - storcli
 - chef-dk
 - flexget
