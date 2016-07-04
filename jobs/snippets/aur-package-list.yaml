@@ -100,4 +100,7 @@
 - python2-flask-cors
 - tvdb_api
 - tvdb_api-git
+- python-rebulk
+- python-regex
+- python2-babelfish
 - openvpn-update-systemd-resolved
