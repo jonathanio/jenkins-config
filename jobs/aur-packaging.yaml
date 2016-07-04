@@ -61,7 +61,7 @@
 
 - job-template:
     name: aur-package-{package}
-    display-name: "AUR Packaging ({package})"
+    display-name: "{package}"
     defaults: aur
     scm:
       - git:
@@ -75,7 +75,7 @@
 
 - job-template:
     name: aur-package-linux-git
-    display-name: "AUR Packaging (linux-git)"
+    display-name: "linux-git"
     defaults: aur
     scm:
       - git:
@@ -93,7 +93,7 @@
 
 - job-template:
     name: aur-package-dataloop-agent
-    display-name: "AUR Packaging (dataloop-agent)"
+    display-name: "dataloop-agent"
     defaults: aur
     scm:
       - git:

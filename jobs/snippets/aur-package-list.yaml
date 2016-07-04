@@ -97,3 +97,4 @@
 - python2-flask-compress
 - python2-flask-cors
 - python2-safe
+- tvdb_api

@@ -9,7 +9,7 @@
 
 - defaults:
     name: ansible-role
-    display-name: "Ansible Role Integration Test ({role})"
+    display-name: "ansible-role-{role}"
     description: |
       This project has been created, and is managed, by Jenkins Job Builder.
       Do not edit this via the web interface. Any changes may be lost at any
