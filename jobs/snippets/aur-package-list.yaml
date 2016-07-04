@@ -83,3 +83,5 @@
 - filebeat-bin
 - storcli
 - chef-dk
+- flexget
+- flexget-git
