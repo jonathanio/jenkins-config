@@ -99,3 +99,4 @@
 - python2-flask-cors
 - python2-safe
 - tvdb_api
+- openvpn-update-systemd-resolved
