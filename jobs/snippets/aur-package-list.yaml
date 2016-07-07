@@ -90,10 +90,10 @@
 - tvnamer-git
 - python2-pyrss2gen
 - python2-pynzb
-- python2-rpyc
+- python-rpyc
 - python2-guessit
 - python2-apscheduler
-- python2-flask-restful
+- python-flask-restful
 - python2-flask-restplus
 - python2-flask-compress
 - python2-flask-cors
