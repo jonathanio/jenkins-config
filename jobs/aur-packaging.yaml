@@ -86,7 +86,7 @@
     triggers:
       - pollscm:
           cron: "@hourly"
-      - timed: 'H H(1-4) * * 1'
+    # - timed: 'H H(1-4) * * 1'
 
 # Custom template sepcifically for dataloop-agent, which will put the packaging
 # information directly from my private fork of the main repository.
