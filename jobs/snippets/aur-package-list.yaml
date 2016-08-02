@@ -103,4 +103,5 @@
 - python-rebulk
 - python-regex
 - python2-babelfish
+- rack
 - openvpn-update-systemd-resolved
