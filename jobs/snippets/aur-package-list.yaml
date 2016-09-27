@@ -94,3 +94,5 @@
 - openvpn-update-systemd-resolved
 - strongswan
 - plexpy
+- python-terminaltables
+- python2-colorclass
