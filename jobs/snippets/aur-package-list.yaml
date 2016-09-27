@@ -93,3 +93,4 @@
 - rack
 - openvpn-update-systemd-resolved
 - strongswan
+- plexpy
