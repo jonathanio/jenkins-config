@@ -101,6 +101,9 @@
 - openvpn-update-systemd-resolved
 - strongswan
 - synology-assistant
+- google-breakpad-git
+- depot-tools-git
+- zoom
 - plexpy
 - python-terminaltables
 - python2-colorclass
