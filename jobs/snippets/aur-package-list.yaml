@@ -73,9 +73,7 @@
 - storcli
 - chef-dk
 - flexget
-- flexget-git
 - tvnamer
-- tvnamer-git
 - python-rpyc
 - python-flask-restful
 - python2-safe
@@ -87,7 +85,6 @@
 - python2-flask-compress
 - python2-flask-cors
 - tvdb_api
-- tvdb_api-git
 - python-rebulk
 - python-regex
 - python2-babelfish
