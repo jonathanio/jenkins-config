@@ -3,6 +3,7 @@
 - beats
 - collectd
 - elasticsearch
+- firewalld
 - grafana
 - influxdb
 - kibana
