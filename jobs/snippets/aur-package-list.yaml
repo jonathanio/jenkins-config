@@ -152,3 +152,8 @@
 - lightdm-webkit-theme-archlinux
 - lightdm-webkit-theme-aether
 - lightdm-webkit-theme-material-git
+- pdftk
+- pdftk-bin
+- gcc-gcj-ecj
+- gcc-gcj
+- libgcj17-bin
