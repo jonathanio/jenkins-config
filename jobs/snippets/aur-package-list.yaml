@@ -134,3 +134,8 @@
 - ncurses5-compat-libs
 - vmware-systemd-services
 - vmware-modules-dkms
+- couchpotato
+- couchpotato-git
+- plexrequests.net
+- headphones
+- pulseaudio-ctl
