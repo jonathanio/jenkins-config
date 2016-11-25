@@ -146,3 +146,9 @@
 - neomutt
 - compiz
 - compiz-core
+- lightdm-webkit-greeter
+- lightdm-webkit2-greeter
+- lightdm-webkit2-clean
+- lightdm-webkit-theme-archlinux
+- lightdm-webkit-theme-aether
+- lightdm-webkit-theme-material-git
