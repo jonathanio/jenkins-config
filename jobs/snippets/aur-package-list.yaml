@@ -125,3 +125,4 @@
 - go-bindata-git
 - kubectl-bin
 - kube-aws
+- openvpn-git openvpn-auth-ldap
