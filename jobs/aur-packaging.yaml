@@ -26,6 +26,10 @@
             - job-build
             - job-read
             - job-extended-read
+          GregSharpe1:
+            - job-build
+            - job-read
+            - job-extended-read
       - throttle:
           enabled: true
           max-per-node: 1
