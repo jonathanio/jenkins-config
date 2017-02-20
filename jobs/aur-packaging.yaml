@@ -22,6 +22,10 @@
             - job-build
             - job-read
             - job-extended-read
+          proffalken:
+            - job-build
+            - job-read
+            - job-extended-read
       - throttle:
           enabled: true
           max-per-node: 1
