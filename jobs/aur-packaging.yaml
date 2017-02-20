@@ -7,6 +7,7 @@
     jobs:
       - "aur-package-{package}"
       - "aur-package-dataloop-agent"
+      - "aur-package-last-known-good"
       - "aur-package-linux-git"
 
 - defaults:
@@ -101,3 +102,15 @@
           branches:
             - '*/master'
           skip-tag: true
+
+- job-template:
+    name: aur-package-last-known-good
+    display-name: "last-known-good"
+    defaults: aur
+    scm:
+      - git:
+          url: 'https://github.com/jonathanio/aur-last-known-good.git'
+          branches:
+            - '*/master'
+          skip-tag: true
+
