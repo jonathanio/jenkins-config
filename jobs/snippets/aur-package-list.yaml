@@ -130,7 +130,8 @@
 - go-bindata-git
 - kubectl-bin
 - kube-aws
-- openvpn-git openvpn-auth-ldap
+- openvpn-git
+- openvpn-auth-ldap
 - ncurses5-compat-libs
 - vmware-systemd-services
 - vmware-modules-dkms
