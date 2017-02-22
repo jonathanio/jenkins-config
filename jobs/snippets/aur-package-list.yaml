@@ -1,4 +1,3 @@
-- atom-editor
 - atom-editor-bin
 - ansible-lint
 - aws-cli
@@ -67,7 +66,6 @@
 - dee
 - libdbusmenu
 - geeqie-git
-- zxfer
 - influxdb
 - logstash
 - kibana
