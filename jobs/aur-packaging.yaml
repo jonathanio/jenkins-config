@@ -30,6 +30,10 @@
             - job-build
             - job-read
             - job-extended-read
+          jamaalprimus:
+            - job-build
+            - job-read
+            - job-extended-read
       - throttle:
           enabled: true
           max-per-node: 1
@@ -121,4 +125,3 @@
           branches:
             - '*/master'
           skip-tag: true
-
