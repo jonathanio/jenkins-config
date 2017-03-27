@@ -172,3 +172,5 @@
 - libmatthew-unix-java
 - alacritty-git
 - keybase-bin
+- python-aniso8601
+- python2-zxcvbn
