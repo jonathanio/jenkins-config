@@ -182,3 +182,10 @@
 - nodejs-lts-argon
 - ghost-desktop
 - solaar
+- pulseaudio-dlna
+- pulseaudio-dlna-git
+- pulseaudio-bluetooth-a2dp-gdm-fix
+- pasystray
+- python2-notify2
+- python2-zeroconf
+- python2-pyroute2
