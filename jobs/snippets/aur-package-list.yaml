@@ -197,3 +197,15 @@
 - neovim-commentary
 - neovim-airline
 - oni
+- vim-unimpaired
+- vim-trailing-whitespace
+- vim-theme-codeschool
+- vim-sensible
+- vim-puppet
+- vim-markdown
+- vim-indent-guides
+- vim-gocode
+- gocode-daemon
+- vim-go
+- vim-comments
+- vim-commentary
