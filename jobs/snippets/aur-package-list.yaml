@@ -189,3 +189,11 @@
 - python2-notify2
 - python2-zeroconf
 - python2-pyroute2
+- neovim-fugitive
+- neovim-plug
+- neovim-project
+- neovim-supertab
+- neovim-workspace
+- neovim-commentary
+- neovim-airline
+- oni
