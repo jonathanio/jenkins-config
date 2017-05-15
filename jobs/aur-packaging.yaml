@@ -38,6 +38,10 @@
             - job-build
             - job-read
             - job-extended-read
+          bbozhev:
+            - job-build
+            - job-read
+            - job-extended-read
       - throttle:
           enabled: true
           max-per-node: 1
