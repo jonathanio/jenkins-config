@@ -178,3 +178,6 @@
 - libcurl-openssl-1.0
 - spotify
 - gitkraken
+- ghost
+- nodejs-lts-argon
+- ghost-desktop
