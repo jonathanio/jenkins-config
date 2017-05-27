@@ -50,7 +50,6 @@
 - nomad-bin
 - otto-bin
 - prelink
-- i3lock-wrapper
 - i3lock-blur
 - i3-gaps
 - apache-tools
@@ -59,8 +58,6 @@
 - cairo-compmgr-git
 - telegram-desktop-bin
 - telegram-cli-git
-- grive
-- grive-git
 - libunity
 - libindicator
 - libappindicator
@@ -114,9 +111,6 @@
 - python-jenkins-job-builder
 - python-python-jenkins
 - python-multi_key_dict
-- oh-my-zsh-git
-- bullet-train-oh-my-zsh-theme-git
-- oh-my-zsh-powerline-theme-git
 - powerline-fonts
 - awesome-terminal-fonts
 - go-ethereum
@@ -129,13 +123,10 @@
 - go-bindata-git
 - kubectl-bin
 - kube-aws
-- openvpn-git
 - openvpn-auth-ldap
 - ncurses5-compat-libs
 - vmware-systemd-services
 - vmware-modules-dkms
-- couchpotato
-- couchpotato-git
 - plexrequests.net
 - headphones
 - pulseaudio-ctl
@@ -212,8 +203,4 @@
 - nerd-fonts-complete
 - nerd-fonts-dejavu-complete
 - libopenssl-1.0-compat
-- gitkraken
-- ghost
-- nodejs-lts-argon
-- ghost-desktop
 - todoist
