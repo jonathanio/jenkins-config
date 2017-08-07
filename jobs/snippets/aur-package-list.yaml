@@ -225,4 +225,6 @@
 - tflint
 - polybar
 - polybar-git
+- lightdm-webkit2-theme-material2
+- lightdm-slick-greeter
 - gcc6
