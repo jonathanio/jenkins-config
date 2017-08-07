@@ -223,4 +223,6 @@
 - remarkable
 - webkitgtk
 - tflint
+- polybar
+- polybar-git
 - gcc6
