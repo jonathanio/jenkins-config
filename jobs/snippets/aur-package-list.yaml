@@ -219,3 +219,5 @@
 - ttf-iosevka-pack
 - ttf-iosevka-type
 - ttf-iosevka-term
+- gcc63
+- gcc6
