@@ -69,10 +69,10 @@
           regexp: 'Finished making: (\S* \S*)'
       - ssh:
           site: repo-manager
-          target: private
+          target: private/new
           source: '*.pkg.tar.xz'
-          # use-pty: true
-          command: 'cd private && repo-add -n -R private.db.tar.gz *.pkg.tar.xz'
+          command:
+            !include-raw-escape: repo-add.sh
           timeout: 300000
           fail-on-error: true
       - archive:
