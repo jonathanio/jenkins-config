@@ -113,7 +113,6 @@
 - jmeter-plugins
 - jmeter-plugins-extraslib
 - jmeter-plugins-standard
-- kubernetes
 - etcd
 - go-bindata-git
 - kubectl-bin
