@@ -140,9 +140,6 @@
 - lightdm-webkit-theme-material-git
 - pdftk
 - pdftk-bin
-- gcc-gcj-ecj
-- gcc-gcj
-- libgcj17-bin
 - antergos-wallpapers
 - gpmdp
 - gpmdp-remote
@@ -182,7 +179,6 @@
 - neovim-workspace
 - neovim-commentary
 - neovim-airline
-- oni
 - vim-unimpaired
 - vim-trailing-whitespace
 - vim-theme-codeschool
