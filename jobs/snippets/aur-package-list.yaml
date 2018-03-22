@@ -209,9 +209,6 @@
 - gcc6
 - todoist
 - kakoune-git
-- sonarr
-- radarr
-- hugo-bin
 - hugo-git
 - jackett
 - qtwebkit
@@ -221,3 +218,7 @@
 - drone-cli
 - oni
 - neovim-gtk-git
+- hugo-bin
+- sonarr
+- radarr
+- notify-osd-customizable
