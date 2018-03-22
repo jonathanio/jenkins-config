@@ -209,6 +209,8 @@
 - gcc6
 - todoist
 - kakoune-git
+- sonarr
+- radarr
 - hugo-bin
 - hugo-git
 - jackett
