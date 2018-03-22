@@ -42,6 +42,10 @@
             - job-build
             - job-read
             - job-extended-read
+          deanpcmad:
+            - job-build
+            - job-read
+            - job-extended-read
       - throttle:
           enabled: true
           max-per-node: 1
