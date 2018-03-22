@@ -216,3 +216,6 @@
 - hugo-git
 - jackett
 - lidarr
+- drone-git
+- drone-cli-git
+- drone-cli
