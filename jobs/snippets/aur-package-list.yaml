@@ -100,7 +100,7 @@
 - google-breakpad-git
 - depot-tools-git
 - zoom
-- plexpy
+- tautulli-beta
 - python-terminaltables
 - python2-colorclass
 - python-jenkins-job-builder
