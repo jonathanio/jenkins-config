@@ -191,9 +191,6 @@
 - vim-go
 - vim-comments
 - vim-commentary
-- nerd-fonts-complete
-- nerd-fonts-dejavu-complete
-- nerd-fonts-source-code-pro
 - libopenssl-1.0-compat
 - adobe-base-14-fonts
 - ttf-iosevka
