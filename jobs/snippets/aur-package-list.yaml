@@ -179,6 +179,7 @@
 - remarkable
 - webkitgtk
 - tflint-bin
+- tflint
 - polybar
 - polybar-git
 - lightdm-webkit2-theme-material2
@@ -216,3 +217,13 @@
 - vim-youcompleteme-git
 - light
 - light-git
+- brother-dcp-9020cdw
+- npapi-vlc
+- npapi-vlc-gtk3
+- yadm-git
+- terragrunt-bin
+- wtfutil
+- wtfutil-git
+- bolt
+- bolt-git
+- flyway
