@@ -1,6 +1,5 @@
 - atom-editor-bin
 - ansible-lint
-- aws-cli
 - bsdmainutils
 - byobu
 - cloudfoundry-cli
@@ -19,7 +18,6 @@
 - plymouth
 - py3status
 - python-behave
-- python-botocore
 - python-orderedset
 - python-parse_type
 - python-s3transfer
