@@ -129,9 +129,7 @@
 - compiz
 - compiz-core
 - lightdm-webkit-greeter
-- lightdm-webkit2-greeter
 - lightdm-webkit2-clean
-- lightdm-webkit-theme-archlinux
 - lightdm-webkit-theme-aether
 - lightdm-webkit-theme-material-git
 - pdftk
@@ -156,7 +154,6 @@
 - python2-zxcvbn
 - libcurl-openssl-1.0
 - spotify
-- gitkraken
 - ghost
 - nodejs-lts-argon
 - ghost-desktop
