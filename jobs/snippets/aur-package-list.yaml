@@ -240,3 +240,4 @@
 - synergy2-bin
 - yamllint
 - python-pathspec
+- systemd-boot-pacman-hook
