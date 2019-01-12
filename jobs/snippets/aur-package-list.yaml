@@ -235,3 +235,8 @@
 - llvm-svn
 - radeon-tray
 - srm
+- gestures
+- libinput-gestures
+- synergy2-bin
+- yamllint
+- python-pathspec
