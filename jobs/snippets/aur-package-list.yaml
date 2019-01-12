@@ -39,6 +39,10 @@
 - yubikey-neo-manager-git
 - yubikey-personalization-git
 - yubikey-personalization-gui-git
+- libykneomgr-git
+- python-pyside
+- shiboken
+- phonon-qt4
 - letsencrypt-git
 - consul
 - nomad
