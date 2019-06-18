@@ -208,16 +208,9 @@
 - ttf-signika
 - nvm
 - neovim-git
+- libluv
 - neovim-drop-in
-- neovim-plug
-- neovim-airline
-- neovim-nerdtree
-- neovim-nerdcommenter
-- neovim-fugitive
-- vim-go
-- vim-gocode
 - gocode-daemon
-- vim-youcompleteme-git
 - light
 - light-git
 - brother-dcp-9020cdw
