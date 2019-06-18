@@ -237,3 +237,4 @@
 - python-pathspec
 - systemd-boot-pacman-hook
 - pacman-cleanup-hook
+- pulumi-bin
