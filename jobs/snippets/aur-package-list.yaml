@@ -115,6 +115,8 @@
 - jmeter-plugins-standard
 - etcd
 - go-bindata-git
+- kubernetes-helm
+- kubernetes-helm-bin
 - kubectl-bin
 - kube-aws
 - openvpn-auth-ldap
