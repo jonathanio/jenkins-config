@@ -235,3 +235,5 @@
 - systemd-boot-pacman-hook
 - pacman-cleanup-hook
 - pulumi-bin
+- compton-tryone-git
+- rancher-k3d-bin
