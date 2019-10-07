@@ -111,21 +111,7 @@
     triggers:
       - pollscm:
           cron: "@hourly"
-    # - timed: 'H H(1-4) * * 1'
-
-# Custom template sepcifically for dataloop-agent, which will put the packaging
-# information directly from my private fork of the main repository.
-
-- job-template:
-    name: aur-package-dataloop-agent
-    display-name: "dataloop-agent"
-    defaults: aur
-    scm:
-      - git:
-          url: 'https://github.com/jonathanio/dataloop-archlinux.git'
-          branches:
-            - '*/master'
-          skip-tag: true
+      - timed: 'H H(1-4) * * 1'
 
 - job-template:
     name: aur-package-last-known-good
