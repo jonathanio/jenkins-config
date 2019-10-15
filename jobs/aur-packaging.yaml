@@ -6,7 +6,6 @@
       !include: aur-package-list.yaml
     jobs:
       - "aur-package-{package}"
-      - "aur-package-dataloop-agent"
       - "aur-package-last-known-good"
       - "aur-package-linux-git"
 
