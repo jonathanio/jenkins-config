@@ -204,3 +204,5 @@
 - powershell-preview-bin
 - fedora-firefox-wayland-bin
 - chromium-ozone
+- doctl
+- doctl-bin
