@@ -61,7 +61,6 @@
 - gox
 - storcli
 - chef-dk
-- python-regex
 - rack
 - openvpn-update-systemd-resolved
 - strongswan
