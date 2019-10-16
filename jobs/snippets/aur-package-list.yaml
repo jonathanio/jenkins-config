@@ -202,3 +202,5 @@
 - powershell
 - powershell-bin
 - powershell-preview-bin
+- fedora-firefox-wayland-bin
+- chromium-ozone
