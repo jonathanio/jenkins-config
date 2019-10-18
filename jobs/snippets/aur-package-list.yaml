@@ -206,3 +206,5 @@
 - chromium-ozone
 - doctl
 - doctl-bin
+- kapp
+- kapp-git
