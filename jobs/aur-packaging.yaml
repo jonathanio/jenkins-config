@@ -1,13 +1,19 @@
 ---
 
 - project:
-    name: aur
+    name: aur-trigger
     package:
       !include: aur-package-list.yaml
     jobs:
       - "aur-package-{package}"
       - "aur-package-last-known-good"
-      - "aur-package-linux-git"
+
+- project:
+    name: aur-auto
+    package:
+      !include: aur-package-auto.yaml
+    jobs:
+      - "aur-package-{package}-auto"
 
 - defaults:
     name: aur
@@ -98,19 +104,19 @@
 # is built weekly on a Monday morning, usually after the next rc release
 
 - job-template:
-    name: aur-package-linux-git
-    display-name: "linux-git"
+    name: aur-package-{package}-auto
+    display-name: "{package}"
     defaults: aur
     scm:
       - git:
-          url: 'https://aur.archlinux.org/linux-git.git'
+          url: 'https://aur.archlinux.org/{package}.git'
           branches:
             - '*/master'
           skip-tag: true
     triggers:
       - pollscm:
           cron: "@hourly"
-      - timed: 'H H(1-4) * * 1'
+      - timed: 'H H(1-6) * * 1'
 
 - job-template:
     name: aur-package-last-known-good
