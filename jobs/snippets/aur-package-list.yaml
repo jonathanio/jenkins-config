@@ -213,3 +213,6 @@
 - velero-bin
 # Fonts
 - ttf-consolas-powerline
+- consolas-font
+# Cloudflare SSL Service
+- cfssl
