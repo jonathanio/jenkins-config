@@ -211,3 +211,5 @@
 - snapd-glib
 # Velero
 - velero-bin
+# Fonts
+- ttf-consolas-powerline
