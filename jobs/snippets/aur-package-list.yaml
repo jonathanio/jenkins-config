@@ -216,3 +216,5 @@
 - consolas-font
 # Cloudflare SSL Service
 - cfssl
+# Google Cloud SDK
+- google-cloud-sdk
