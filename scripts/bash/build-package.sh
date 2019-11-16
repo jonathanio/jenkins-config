@@ -2,6 +2,8 @@
 
 LOCK="/var/lib/pacman/db.lck"
 
+sleep $((RANDOM%11+2))
+
 if [[ -f "${LOCK}" ]]
 then
   echo ":: Waiting for database lock file to be removed..."
