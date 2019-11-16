@@ -181,7 +181,6 @@
 - systemd-boot-pacman-hook
 - pacman-cleanup-hook
 - pulumi-bin
-- rancher-k3d-bin
 - wofi-hg
 - powershell
 - powershell-bin
@@ -218,3 +217,6 @@
 - cfssl
 # Google Cloud SDK
 - google-cloud-sdk
+# k3s
+- k3s-bin
+- rancher-k3d-bin
