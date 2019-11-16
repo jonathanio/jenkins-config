@@ -85,7 +85,7 @@
           timeout: 300000
           fail-on-error: true
       - archive:
-          artifacts: '*.pkg.tar.xz'
+          artifacts: '*.pkg.tar.xz,*.pkg.tar.zst'
           allow-empty: 'false'
           only-if-success: true
 

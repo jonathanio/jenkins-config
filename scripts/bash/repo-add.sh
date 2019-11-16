@@ -1,7 +1,7 @@
 #!/usr/bin/env bash -ex
 
 cd private/new
-for PKG in *.pkg.tar.xz
+for PKG in *.pkg.tar.xz *.pkg.tar.zst
 do
   if [[ -e "../${PKG}" ]]; then
     mv "${PKG}" "../${PKG}"
