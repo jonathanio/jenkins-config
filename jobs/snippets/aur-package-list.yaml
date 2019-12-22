@@ -54,7 +54,6 @@
 - topbeat-bin
 - filebeat-bin
 - gox
-- storcli
 - chef-dk
 - rack
 - openvpn-update-systemd-resolved
@@ -220,3 +219,6 @@
 # k3s
 - k3s-bin
 - rancher-k3d-bin
+# LSI MegaRaid Utils
+- storcli
+- megaraid
