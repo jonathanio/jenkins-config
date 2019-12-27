@@ -39,10 +39,6 @@
             - job-build
             - job-read
             - job-extended-read
-          jamaalprimus:
-            - job-build
-            - job-read
-            - job-extended-read
           bbozhev:
             - job-build
             - job-read
