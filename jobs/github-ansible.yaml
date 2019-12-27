@@ -1,15 +1,13 @@
 ---
-
 - project:
     name: ansible-roles
-    role:
-      !include: ansible-roles-list.yaml
+    role: !include: ansible-roles-list.yaml
     jobs:
-      - "ansible-role-{role}"
+      - 'ansible-role-{role}'
 
 - defaults:
     name: ansible-role
-    display-name: "ansible-role-{role}"
+    display-name: 'ansible-role-{role}'
     description: |
       This project has been created, and is managed, by Jenkins Job Builder.
       Do not edit this via the web interface. Any changes may be lost at any
@@ -48,16 +46,15 @@
           permit-all: true
           white-list-target-branches:
             - master
-          status-context: "test-kitchen(ec2)"
-          triggered-status: "Request sent to Jenkins server..."
-          started-status: "Running test-kitchen..."
-          success-status: "All tests have passed."
-          failure-status: "One or more tests has/have failed."
-          error-status: "There was an error running the tests."
-          build-desc-template: "PR$pullId: $title"
+          status-context: 'test-kitchen(ec2)'
+          triggered-status: 'Request sent to Jenkins server...'
+          started-status: 'Running test-kitchen...'
+          success-status: 'All tests have passed.'
+          failure-status: 'One or more tests has/have failed.'
+          error-status: 'There was an error running the tests.'
+          build-desc-template: 'PR$pullId: $title'
     builders:
-      - shell:
-          !include-raw-escape: kitchen-test.sh
+      - shell: !include-raw-escape: kitchen-test.sh
     publishers:
       - archive:
           artifacts: '.kitchen/logs/*.log'
@@ -65,5 +62,5 @@
           only-if-success: false
 
 - job-template:
-    name: "ansible-role-{role}"
+    name: 'ansible-role-{role}'
     defaults: ansible-role

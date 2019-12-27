@@ -96,7 +96,7 @@
 
 - job-template:
     name: aur-package-{package}-auto
-    display-name: "{package}"
+    display-name: '{package}'
     defaults: aur
     scm:
       - git:
@@ -106,12 +106,12 @@
           skip-tag: true
     triggers:
       - pollscm:
-          cron: "@hourly"
+          cron: '@hourly'
       - timed: 'H H(1-6) * * 1'
 
 - job-template:
     name: aur-package-last-known-good
-    display-name: "last-known-good"
+    display-name: 'last-known-good'
     defaults: aur
     scm:
       - git:
