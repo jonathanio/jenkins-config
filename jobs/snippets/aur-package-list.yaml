@@ -29,9 +29,6 @@
 - vault
 - vault-bin
 - yaourt
-- python-pyside
-- shiboken
-- phonon-qt4
 - consul
 - nomad
 - nomad-bin
@@ -64,7 +61,7 @@
 - zoom
 - tautulli-beta
 - python-terminaltables
-- python2-colorclass
+- python-colorclass-git
 - python-jenkins-job-builder
 - python-python-jenkins
 - python-multi_key_dict
