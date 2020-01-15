@@ -227,3 +227,5 @@
 # Starship Prompts
 - starship
 - starship-bin
+# Dell Tools
+- dell-command-configure
