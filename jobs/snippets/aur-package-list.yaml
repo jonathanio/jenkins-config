@@ -144,7 +144,6 @@
 - lidarr
 - drone
 - drone-cli
-- oni
 - hugo-bin
 - sonarr
 - radarr
@@ -157,7 +156,6 @@
 - ttf-signika
 - nvm
 - libluv
-- neovim-drop-in
 - gocode-daemon
 - light
 - brother-dcp-9020cdw
@@ -218,4 +216,11 @@
 - rancher-k3d-bin
 # LSI MegaRaid Utils
 - storcli
-- megaraid
+- megacli
+# Neovim
+- neovim-nightly
+- neovim-drop-in
+- terminfo-neovim-tmux
+- oni
+- oni-bin
+- neovim-qt
