@@ -102,8 +102,6 @@
 - caddy-full-bin
 - signal
 - signal-cli
-- nwjs-bin
-- nwjs-bin-0.17.3
 - ruby-sass
 - ruby-yard
 - ruby-maruku
