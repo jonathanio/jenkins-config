@@ -229,3 +229,9 @@
 - dell-command-configure
 # Sway Menu
 - sgtk-menu
+# Miracast
+- miraclecast-git
+- pipewire-git
+- gnome-network-displays
+- gnome-network-displays-git
+- gst-rtsp-server
