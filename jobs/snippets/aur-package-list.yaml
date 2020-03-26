@@ -181,9 +181,10 @@
 - cfssl
 # Google Cloud SDK
 - google-cloud-sdk
-# k3s
+# Kubernetes
 - k3s-bin
 - rancher-k3d-bin
+- istio-bin
 # LSI MegaRaid Utils
 - storcli
 - megacli
