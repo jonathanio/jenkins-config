@@ -212,6 +212,8 @@
 - nomad
 - nomad-bin
 - terragrunt-bin
+# Rot8 for Sway Rotation
+- rot8-git
 # Secure Bootloaders and Boot Screens
 - plymouth
 - plymouth-git
