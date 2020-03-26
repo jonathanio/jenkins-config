@@ -19,11 +19,6 @@
 - sublime-text-dev
 - sublime-text-nightly
 - terraform-bin
-- ttf-mac-fonts
-- ttf-ms-fonts
-- ttf-google-fonts-git
-- ttf-fira-code
-- otf-fira-code
 - vault
 - vault-bin
 - yaourt
@@ -117,12 +112,6 @@
 - python2-pyroute2
 - libopenssl-1.0-compat
 - adobe-base-14-fonts
-- ttf-iosevka
-- ttf-iosevka-slab
-- ttf-iosevka-pack
-- ttf-iosevka-type
-- ttf-iosevka-term
-- ttf-dejavu-emojiless
 - remarkable
 - webkitgtk
 - tflint-bin
@@ -140,12 +129,6 @@
 - sonarr
 - radarr
 - notify-osd-customizable
-- ttf-merriweather
-- ttf-merriweather-sans
-- ttf-opensans
-- ttf-oswald
-- ttf-quintessential
-- ttf-signika
 - nvm
 - libluv
 - gocode-daemon
@@ -195,9 +178,6 @@
 - snapd-glib
 # Velero
 - velero-bin
-# Fonts
-- ttf-consolas-powerline
-- consolas-font
 # Cloudflare SSL Service
 - cfssl
 # Google Cloud SDK
@@ -232,3 +212,30 @@
 - nomad
 - nomad-bin
 - terragrunt-bin
+# Fonts
+- ttf-mac-fonts
+- ttf-ms-fonts
+- consolas-font
+- ttf-consolas-powerline
+- ttf-iosevka
+#  - ttf-iosevka-slab
+- ttf-iosevka-type
+- ttf-iosevka-type-slab
+- ttf-iosevka-term
+# - ttf-iosevka-fixed
+- ttf-iosevka-ss02
+- ttf-iosevka-ss03
+- ttf-iosevka-ss05
+- ttf-iosevka-ss08
+- ttf-iosevka-ss09
+# - ttf-iosevka-ss12
+# - ttf-iosevka-ss13
+# - ttf-iosevka-ss14
+- ttf-iosevka-term-ss02
+- ttf-iosevka-term-ss03
+- ttf-iosevka-term-ss05
+- ttf-iosevka-term-ss08
+- ttf-iosevka-term-ss09
+# - ttf-iosevka-term-ss12
+# - ttf-iosevka-term-ss13
+# - ttf-iosevka-term-ss14
