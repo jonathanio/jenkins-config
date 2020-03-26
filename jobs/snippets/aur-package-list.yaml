@@ -1,7 +1,6 @@
 - atom-editor-bin
 - ansible-lint
 - bsdmainutils
-- byobu
 - cloudfoundry-cli
 - compton
 - debian-whois-mkpasswd
@@ -14,7 +13,6 @@
 - package-query
 - plex-media-server
 - plex-media-server-plexpass
-- plymouth
 - qtpass
 - slack-desktop
 - sublime-text
@@ -29,10 +27,6 @@
 - vault
 - vault-bin
 - yaourt
-- consul
-- nomad
-- nomad-bin
-- otto-bin
 - prelink
 - i3lock-blur
 - apache-tools
@@ -159,7 +153,6 @@
 - brother-dcp-9020cdw
 - npapi-vlc
 - npapi-vlc-gtk3
-- terragrunt-bin
 - wtfutil
 - flyway
 - plymouth-theme-arch-charge
@@ -235,3 +228,7 @@
 - gnome-network-displays
 - gnome-network-displays-git
 - gst-rtsp-server
+# Hashicorp
+- nomad
+- nomad-bin
+- terragrunt-bin
