@@ -212,6 +212,11 @@
 - nomad
 - nomad-bin
 - terragrunt-bin
+# Secure Bootloaders and Boot Screens
+- plymouth
+- plymouth-git
+- shim-signed
+- grub2-signing-extension
 # Fonts
 - ttf-mac-fonts
 - ttf-ms-fonts
