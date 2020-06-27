@@ -59,13 +59,10 @@
 - jmeter-plugins
 - jmeter-plugins-extraslib
 - jmeter-plugins-standard
-- etcd
 - go-bindata-git
 - kubernetes-helm
 - kubernetes-helm-bin
 - kubectl-bin
-- kube-aws
-- openvpn-auth-ldap
 - ncurses5-compat-libs
 - vmware-systemd-services
 - vmware-modules-dkms
@@ -88,7 +85,6 @@
 - gpmdp-remote
 - caddy
 - caddy-full-bin
-- signal
 - signal-cli
 - ruby-sass
 - ruby-yard
@@ -96,7 +92,6 @@
 - xar
 - libmatthew-unix-java
 - keybase-bin
-- spotify
 - ghost
 - nodejs-lts-argon
 - ghost-desktop
@@ -113,8 +108,6 @@
 - adobe-base-14-fonts
 - remarkable
 - webkitgtk
-- tflint-bin
-- tflint
 - polybar
 - lightdm-webkit2-theme-material2
 - lightdm-slick-greeter
@@ -137,14 +130,10 @@
 - npapi-vlc-gtk3
 - wtfutil
 - flyway
-- plymouth-theme-arch-charge
-- plymouth-theme-dark-arch
-- plymouth-theme-monoarch
 - srm
 - gestures
 - libinput-gestures
 - synergy2-bin
-- yamllint
 - systemd-boot-pacman-hook
 - pacman-cleanup-hook
 - pulumi-bin
@@ -183,6 +172,8 @@
 - google-cloud-sdk
 # Kubernetes
 - k3s-bin
+- etcd
+- etcd-bin
 - rancher-k3d-bin
 - istio-bin
 # LSI MegaRaid Utils
@@ -192,9 +183,12 @@
 - neovim-nightly
 - neovim-drop-in
 - terminfo-neovim-tmux
+# OniVim
 - oni
 - oni-bin
-- neovim-qt
+- gconf
+- onivim2
+- esy
 # Starship Prompts
 - starship
 - starship-bin
@@ -212,11 +206,27 @@
 - nomad
 - nomad-bin
 - terragrunt-bin
-# Rot8 for Sway Rotation
+- tflint
+- tflint-bin
+- tfsec
+- tfenv
+- tfswitch
+- terraform-ls-bin
+- terraform-lsp
+- terraform-lsp-bin
+- terraformer
+- terraformer-bin
+# Window Management
+- wdisplays-git
 - rot8-git
-# Secure Bootloaders and Boot Screens
+# Boot Screens
 - plymouth
 - plymouth-git
+- gdm-plymouth
+- plymouth-theme-arch-charge
+- plymouth-theme-dark-arch
+- plymouth-theme-monoarch
+# Secure Bootloaders
 - shim-signed
 - grub2-signing-extension
 # Fonts
@@ -225,24 +235,60 @@
 - consolas-font
 - ttf-consolas-powerline
 - ttf-iosevka
-#  - ttf-iosevka-slab
+- ttf-iosevka-slab
 - ttf-iosevka-type
 - ttf-iosevka-type-slab
-- ttf-iosevka-term
-# - ttf-iosevka-fixed
 - ttf-iosevka-ss02
 - ttf-iosevka-ss03
 - ttf-iosevka-ss05
 - ttf-iosevka-ss08
 - ttf-iosevka-ss09
-# - ttf-iosevka-ss12
-# - ttf-iosevka-ss13
-# - ttf-iosevka-ss14
+- ttf-iosevka-ss12
+- ttf-iosevka-ss13
+- ttf-iosevka-ss14
+- ttf-iosevka-term
+- ttf-iosevka-term-curly
+- ttf-iosevka-term-curly-slab
 - ttf-iosevka-term-ss02
 - ttf-iosevka-term-ss03
 - ttf-iosevka-term-ss05
 - ttf-iosevka-term-ss08
 - ttf-iosevka-term-ss09
-# - ttf-iosevka-term-ss12
-# - ttf-iosevka-term-ss13
-# - ttf-iosevka-term-ss14
+- ttf-iosevka-term-ss12
+- ttf-iosevka-term-ss13
+- ttf-iosevka-term-ss14
+- ttf-iosevka-fixed
+- ttf-iosevka-fixed-ss02
+- ttf-iosevka-fixed-ss03
+- ttf-iosevka-fixed-ss05
+- ttf-iosevka-fixed-ss08
+- ttf-iosevka-fixed-ss09
+- ttf-iosevka-fixed-ss12
+- ttf-iosevka-fixed-ss13
+- ttf-iosevka-fixed-ss14
+# Games
+- openrct2
+# NodeJS
+- nodejs6-bin
+# AWS Tools
+- aws-cli-v2
+- amazon-workspacesclient
+- kube-aws
+# MongoDB Server & Tools
+- mongodb
+- python-cheetah3
+- mongodb-bin
+- mongodb-bin-3.6
+- mongodb-compass
+- mongodb-compass-community-bin
+- mongodb-compass-isolated-bin
+- mongodb-compass-readonly-bin
+- mongodb-tools-bin
+# Git Tools
+- git-delta
+# Spotify & Music
+- spotify
+# Language Tools
+- yamllint
+- yaml-language-server
+- yaml-language-server-bin
