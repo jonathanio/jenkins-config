@@ -1,20 +1,12 @@
 #!/usr/bin/env bash -ex
 
-LOCK="/var/lib/pacman/db.lck"
-
-sleep $((RANDOM%11+2))
-
-if [[ -f "${LOCK}" ]]
-then
-  echo ":: Waiting for database lock file to be removed..."
-  echo -n "   "
-  while [[ ! -f /var/lib/pacman/db.lck ]]
-  do
-    sleep 30
-    echo -n "."
-  done
-  echo
-fi
+echo -n ":: Checking for DB lock release..."
+while [[ -f /var/lib/pacman/db.lck ]]
+do
+  sleep 30
+  echo -n "."
+done
+echo "released"
 
 # Make sure the system is up-to-date
 sudo pacman -Syu --noconfirm --noprogressbar
