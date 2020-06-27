@@ -271,7 +271,7 @@
 # NodeJS
 - nodejs6-bin
 # AWS Tools
-- aws-cli-v2
+- aws-cli-v2-bin
 - amazon-workspacesclient
 - kube-aws
 # MongoDB Server & Tools
