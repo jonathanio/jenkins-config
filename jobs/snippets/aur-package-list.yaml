@@ -292,3 +292,5 @@
 - yamllint
 - yaml-language-server
 - yaml-language-server-bin
+# PAM Services
+- pam_ssh_agent_auth
