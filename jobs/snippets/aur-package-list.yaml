@@ -288,6 +288,8 @@
 - git-delta
 # Spotify & Music
 - spotify
+- spotify-tui
+- spotify-tui-bin
 # Language Tools
 - yamllint
 - yaml-language-server
