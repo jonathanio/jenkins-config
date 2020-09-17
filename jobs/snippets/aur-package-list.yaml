@@ -64,8 +64,6 @@
 - kubernetes-helm-bin
 - kubectl-bin
 - ncurses5-compat-libs
-- vmware-systemd-services
-- vmware-modules-dkms
 - plexrequests.net
 - headphones
 - pulseaudio-ctl
@@ -142,10 +140,10 @@
 - powershell-bin
 - powershell-preview-bin
 - fedora-firefox-wayland-bin
-- chromium-ozone
 - doctl
 - doctl-bin
 - kapp
+- kapp-bin
 - ytt
 - python-undervolt
 - intel-undervolt
@@ -196,6 +194,8 @@
 - dell-command-configure
 # Sway Menu
 - sgtk-menu
+- nwg-launchers
+- nwg-launchers-git
 # Miracast
 - miraclecast-git
 - pipewire-git
@@ -296,5 +296,22 @@
 - yaml-language-server-bin
 # PAM Services
 - pam_ssh_agent_auth
+- pod2man
 # Teams
 - teams
+# Google Endpoint Verification
+- endpoint-verification
+# Git Tools
+- github-bin
+- github-notify
+- github-release
+- github-release-bin
+- gitkraken
+# Chromium
+- chromium-ozone
+- python2-xcb-proto
+# VMWare
+- vmware-horizon-client
+- vmware-keymaps
+- vmware-systemd-services
+- vmware-modules-dkms
