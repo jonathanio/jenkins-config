@@ -199,7 +199,6 @@
 # Hashicorp
 - nomad
 - nomad-bin
-- terragrunt-bin
 - tflint
 - tflint-bin
 - tfsec
@@ -210,6 +209,8 @@
 - terraform-lsp-bin
 - terraformer
 - terraformer-bin
+- boundary-bin
+- waypoint-bin
 # Window Management
 - wdisplays-git
 - rot8-git
