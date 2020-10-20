@@ -270,14 +270,8 @@
 - amazon-workspacesclient
 - kube-aws
 # MongoDB Server & Tools
-- mongodb
-- python-cheetah3
 - mongodb-bin
-- mongodb-bin-3.6
 - mongodb-compass
-- mongodb-compass-community-bin
-- mongodb-compass-isolated-bin
-- mongodb-compass-readonly-bin
 - mongodb-tools-bin
 # Git Tools
 - git-delta
