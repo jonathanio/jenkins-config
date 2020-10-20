@@ -6,9 +6,6 @@
 - debian-whois-mkpasswd
 - dropbox
 - git-crypt
-- google-chrome
-- google-chrome-beta
-- google-chrome-dev
 - libgcrypt15
 - package-query
 - plex-media-server
@@ -139,7 +136,6 @@
 - powershell
 - powershell-bin
 - powershell-preview-bin
-- fedora-firefox-wayland-bin
 - doctl
 - doctl-bin
 - kapp
@@ -302,14 +298,20 @@
 # Google Endpoint Verification
 - endpoint-verification
 # Git Tools
-- github-bin
 - github-notify
 - github-release
 - github-release-bin
 - gitkraken
-# Chromium
+# Chrome/Chromium
+- google-chrome
+- google-chrome-beta
+- google-chrome-dev
 - chromium-ozone
+- brave-bin
+- brave-beta-bin
+- vivaldi
 - python2-xcb-proto
+- browserpass-chrome
 # VMWare
 - vmware-horizon-client
 - vmware-keymaps
