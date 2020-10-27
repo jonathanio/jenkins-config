@@ -311,3 +311,14 @@
 - vmware-keymaps
 - vmware-systemd-services
 - vmware-modules-dkms
+# Linters
+- ruby-lint
+- ruby-parser
+- ruby-ast
+- ruby-slop
+- nodejs-markdownlint-cli
+- nodejs-jsonlint
+- nodejs-jslint
+- hadolint
+- hadolint-bin
+- adr-tools
