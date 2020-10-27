@@ -322,3 +322,8 @@
 - hadolint
 - hadolint-bin
 - adr-tools
+# CheckOV
+# - python-checkov
+# - python-coverage-badge
+# - python-alabaster
+# - python-bc-python-hcl2
