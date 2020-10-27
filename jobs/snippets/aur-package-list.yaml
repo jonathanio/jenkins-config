@@ -209,6 +209,7 @@
 - terraform-lsp-bin
 - terraformer
 - terraformer-bin
+- terraform-docs-bin
 - boundary-bin
 - waypoint-bin
 # Window Management

@@ -24,3 +24,6 @@
 - github-cli-git
 # GoLang Tools
 - goimports-git
+# Hashicorp
+- terraform-ls-git
+- terraform-lsp-git
