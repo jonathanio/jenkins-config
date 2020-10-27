@@ -9,3 +9,4 @@
 
 # Don't include live configuration
 jenkins_jobs.ini
+data.db
