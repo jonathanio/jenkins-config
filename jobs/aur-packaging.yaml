@@ -91,9 +91,6 @@
             - '*/master'
           skip-tag: true
 
-# Custom template for the linux-git project, which will also ensure the package
-# is built weekly on a Monday morning, usually after the next rc release
-
 - job-template:
     name: aur-package-{package}-auto
     display-name: '{package}'
@@ -119,3 +116,73 @@
           branches:
             - '*/master'
           skip-tag: true
+
+# Custom Packages for Contino
+
+- project:
+    name: aur-contino
+    package:
+      - jcagent
+    jobs:
+      - 'aur-contino-{package}'
+
+- defaults:
+    name: contino
+    description: |
+      This project has been created, and is managed, by Jenkins Job Builder.
+      Do not edit this via the web interface. Any changes may be lost at any
+      time.
+    properties:
+      - authorization:
+          proffalken:
+            - job-build
+            - job-read
+            - job-discover
+            - job-extended-read
+      - throttle:
+          enabled: true
+          max-per-node: 1
+          max-total: 0
+          categories:
+            - aur-packaging
+          option: category
+      - build-discarder:
+          days-to-keep: 365
+          num-to-keep: 25
+    node: aur-builder
+    wrappers:
+      - workspace-cleanup
+      - ansicolor
+    triggers:
+      - pollscm:
+          cron: '@hourly'
+      - timed: 'H H(4-8) * * *'
+
+    publishers:
+      - description-setter:
+          regexp: 'Finished making: (\S* \S*)'
+      - ssh:
+          site: repo-manager
+          target: private/new/aur-contino-{package}
+          source: '*.pkg.tar.*'
+          command: !include-raw-escape: repo-add.sh
+          timeout: 300000
+          fail-on-error: true
+      - archive:
+          artifacts: '*.pkg.tar.xz,*.pkg.tar.zst'
+          allow-empty: true
+          only-if-success: true
+
+- job-template:
+    name: 'aur-contino-{package}'
+    display-name: '{package}'
+    defaults: contino
+    scm:
+      - git:
+          url: 'https://github.com/jonathanio/aur-{package}.git'
+          branches:
+            - '*/master'
+          skip-tag: true
+          credentials-id: jonathanio-scanning
+    builders:
+      - shell: !include-raw-escape: build-jcagent.sh
