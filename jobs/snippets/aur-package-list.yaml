@@ -1,4 +1,3 @@
-- atom-editor-bin
 - ansible-lint
 - bsdmainutils
 - cloudfoundry-cli
@@ -174,6 +173,7 @@
 # Neovim
 - neovim-nightly
 - neovim-drop-in
+- neovim-remote
 - terminfo-neovim-tmux
 # OniVim
 - oni
@@ -301,6 +301,7 @@
 - google-chrome-beta
 - google-chrome-dev
 - chromium-ozone
+- chromium-vaapi
 - brave-bin
 - brave-beta-bin
 - vivaldi
@@ -327,3 +328,7 @@
 # - python-coverage-badge
 # - python-alabaster
 # - python-bc-python-hcl2
+# Clear Linux Kernel
+- linux-clear
+# Google Drive
+- insync
