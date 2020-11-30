@@ -79,6 +79,15 @@
           artifacts: '*.pkg.tar.xz,*.pkg.tar.zst'
           allow-empty: true
           only-if-success: true
+      - workspace-cleanup:
+          fail-build: true
+          clean-if:
+            - success: true
+            - unstable: true
+            - failure: false
+            - aborted: true
+            - not-built: true
+          clean-parent: true
 
 - job-template:
     name: aur-package-{package}
