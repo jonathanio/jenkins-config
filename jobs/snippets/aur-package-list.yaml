@@ -332,3 +332,9 @@
 - linux-clear
 # Google Drive
 - insync
+# dotNET
+- dotnet-core-bin
+# YADM
+- yadm
+# nginx
+- nginx-mainline-mod-lua
