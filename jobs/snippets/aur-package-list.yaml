@@ -171,7 +171,7 @@
 - storcli
 - megacli
 # Neovim
-- neovim-nightly
+- neovim-nightly-bin
 - neovim-drop-in
 - neovim-remote
 - terminfo-neovim-tmux
