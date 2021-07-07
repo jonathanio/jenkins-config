@@ -175,12 +175,6 @@
 - neovim-drop-in
 - neovim-remote
 - terminfo-neovim-tmux
-# OniVim
-- oni
-- oni-bin
-- gconf
-- onivim2
-- esy
 # Starship Prompts
 - starship
 - starship-bin
