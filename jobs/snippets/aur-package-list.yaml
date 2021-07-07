@@ -111,6 +111,7 @@
 - drone-cli
 - hugo-bin
 - sonarr
+- sonarr-develop
 - radarr
 - notify-osd-customizable
 - nvm
@@ -184,6 +185,7 @@
 - sgtk-menu
 - nwg-launchers
 - nwg-launchers-git
+- nwg-panel
 # Miracast
 - miraclecast-git
 - pipewire-git
@@ -332,3 +334,11 @@
 - yadm
 # nginx
 - nginx-mainline-mod-lua
+# Power Panel for CyberPower UPS
+- powerpanel
+# Netdata Cloud package
+- netdata-cloud
+# Mikrotik
+- winbox
+- winbox64
+- wine-x64

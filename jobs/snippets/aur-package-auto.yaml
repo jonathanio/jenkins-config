@@ -17,7 +17,6 @@
 - xdg-desktop-portal-wlr-git
 # Spotify & Music
 - spotify-tray-git
-# Spotify
 - spotify-tui-git
 # Git Tools
 - github-cli-git
@@ -26,3 +25,5 @@
 # Hashicorp
 - terraform-ls-git
 - terraform-lsp-git
+# Wine
+- wine-git
