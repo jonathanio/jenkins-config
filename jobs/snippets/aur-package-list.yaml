@@ -297,9 +297,14 @@
 # Google Endpoint Verification
 - endpoint-verification
 # Git Tools
-- github-notify
 - github-release
+- golang-github-dustin-go-humanize
+- golang-github-voxelbrain-goptions
 - github-release-bin
+- github-desktop
+- github-desktop-bin
+- github-actions-bin
+- github-markdown-toc
 - gitkraken
 # Chrome/Chromium
 - google-chrome
@@ -326,6 +331,7 @@
 - nodejs-jsonlint
 - nodejs-jslint
 - hadolint
+- libgmp-static
 - hadolint-bin
 - adr-tools
 # CheckOV
