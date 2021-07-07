@@ -27,3 +27,6 @@
 - terraform-lsp-git
 # Wine
 - wine-git
+# Kubernetes
+- etcd-git
+- cilium-git

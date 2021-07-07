@@ -166,8 +166,21 @@
 - k3s-bin
 - etcd
 - etcd-bin
+- kubectl-bin
+- kube-prompt
 - rancher-k3d-bin
 - istio-bin
+- flux-bin
+- kube-bench-bin
+- kube-score-bin
+- kube-audit-bin
+- trivy-bin
+- kubeval-bin
+- kubeseal-bin
+- kustomize-bin
+- skaffold-bin
+- kubelogin
+- kubetail
 # LSI MegaRaid Utils
 - storcli
 - megacli
