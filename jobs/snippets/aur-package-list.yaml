@@ -4,7 +4,6 @@
 - compton
 - debian-whois-mkpasswd
 - dropbox
-- git-crypt
 - libgcrypt15
 - package-query
 - plex-media-server
@@ -163,13 +162,16 @@
 - etcd
 - etcd-bin
 - kubectl-bin
+- lens-bin
 - kube-prompt
 - rancher-k3d-bin
+- cilium-cli-bin
+- hubble-bin
 - istio-bin
 - flux-bin
 - kube-bench-bin
 - kube-score-bin
-- kube-audit-bin
+- kubeaudit-bin
 - trivy-bin
 - kubeval-bin
 - kubeseal-bin
@@ -281,6 +283,8 @@
 - mongodb-tools-bin
 # Git Tools
 - git-delta
+- git-crypt
+- gitleaks
 # Spotify & Music
 - spotify
 - spotify-tui
