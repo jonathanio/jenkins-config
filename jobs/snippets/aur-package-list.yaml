@@ -38,7 +38,6 @@
 - rack
 - openvpn-update-systemd-resolved
 - strongswan
-- synology-assistant
 - google-breakpad-git
 - depot-tools-git
 - zoom
@@ -361,3 +360,9 @@
 - winbox
 - winbox64
 - wine-x64
+# Synology
+- synology-assistant
+# draw.io
+- drawio
+- drawio-desktop
+- drawio-desktop-bin
