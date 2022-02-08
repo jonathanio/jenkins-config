@@ -1,12 +1,6 @@
 - linux-git
-- kapp-git
-- bolt-git
 - yadm-git
-- alacritty-git
-- hugo-git
-- compton-tryone-git
-- polybar-git
-- light-git
+# Starship CLI Tool
 - starship-git
 # NeoVim
 - neovim-git
@@ -15,18 +9,5 @@
 # Wayland Screen Sharing
 - xdg-desktop-portal-git
 - xdg-desktop-portal-wlr-git
-# Spotify & Music
-- spotify-tray-git
-- spotify-tui-git
-# Git Tools
-- github-cli-git
-# GoLang Tools
-- goimports-git
-# Hashicorp
-- terraform-ls-git
-- terraform-lsp-git
-# Wine
-- wine-git
 # Kubernetes
 - etcd-git
-- cilium-git

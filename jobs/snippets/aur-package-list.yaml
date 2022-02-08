@@ -1,7 +1,6 @@
 - ansible-lint
 - bsdmainutils
 - cloudfoundry-cli
-- compton
 - debian-whois-mkpasswd
 - dropbox
 - libgcrypt15
@@ -21,7 +20,6 @@
 - apache-tools
 - adapta-gtk-theme
 - telegram-cli-git
-- libunity
 - libindicator
 - libappindicator
 - dee
@@ -55,13 +53,10 @@
 - jmeter-plugins-standard
 - go-bindata-git
 - ncurses5-compat-libs
-- plexrequests.net
 - headphones
 - pulseaudio-ctl
 - visual-studio-code-bin
 - neomutt
-- compiz
-- compiz-core
 - lightdm-webkit-greeter
 - lightdm-webkit2-clean
 - lightdm-webkit-theme-aether
@@ -71,6 +66,8 @@
 - gpmdp-remote
 - caddy
 - caddy-full-bin
+- libzkgroup
+- libsignal-client
 - signal-cli
 - ruby-sass
 - ruby-yard
@@ -83,13 +80,7 @@
 - ghost-desktop
 - solaar
 - solaar-git
-- pulseaudio-dlna
-- pulseaudio-dlna-git
-- pulseaudio-bluetooth-a2dp-gdm-fix
 - pasystray
-- python2-notify2
-- python2-zeroconf
-- python2-pyroute2
 - libopenssl-1.0-compat
 - adobe-base-14-fonts
 - remarkable
@@ -111,8 +102,6 @@
 - nvm
 - libluv
 - gocode-daemon
-- light
-- brother-dcp-9020cdw
 - npapi-vlc
 - npapi-vlc-gtk3
 - wtfutil
@@ -130,8 +119,6 @@
 - powershell-preview-bin
 - doctl
 - doctl-bin
-- kapp
-- kapp-bin
 - ytt
 - python-undervolt
 - intel-undervolt
@@ -186,9 +173,6 @@
 - neovim-drop-in
 - neovim-remote
 - terminfo-neovim-tmux
-# Starship Prompts
-- starship
-- starship-bin
 # Dell Tools
 - dell-command-configure
 # Sway Menu
@@ -196,12 +180,7 @@
 - nwg-launchers
 - nwg-launchers-git
 - nwg-panel
-# Miracast
-- miraclecast-git
-- pipewire-git
-- gnome-network-displays
-- gnome-network-displays-git
-- gst-rtsp-server
+- wlr-randr
 # Hashicorp
 - nomad
 - nomad-bin
@@ -211,8 +190,6 @@
 - tfenv
 - tfswitch
 - terraform-ls-bin
-- terraform-lsp
-- terraform-lsp-bin
 - terraformer
 - terraformer-bin
 - terraform-docs-bin
@@ -274,6 +251,9 @@
 - nodejs6-bin
 # AWS Tools
 - aws-cli-v2-bin
+- aws-session-manager-plugin
+- awslogs
+- copilot-cli-bin
 - amazon-workspacesclient
 - kube-aws
 # MongoDB Server & Tools
@@ -286,8 +266,6 @@
 - gitleaks
 # Spotify & Music
 - spotify
-- spotify-tui
-- spotify-tui-bin
 # Language Tools
 - yamllint
 - yaml-language-server
@@ -300,11 +278,7 @@
 # Google Endpoint Verification
 - endpoint-verification
 # Git Tools
-- github-release
-- golang-github-dustin-go-humanize
-- golang-github-voxelbrain-goptions
 - github-release-bin
-- github-desktop
 - github-desktop-bin
 - github-actions-bin
 - github-markdown-toc
@@ -313,12 +287,6 @@
 - google-chrome
 - google-chrome-beta
 - google-chrome-dev
-- chromium-ozone
-- chromium-vaapi
-- brave-bin
-- brave-beta-bin
-- vivaldi
-- python2-xcb-proto
 - browserpass-chrome
 # VMWare
 - vmware-horizon-client
@@ -327,6 +295,10 @@
 - vmware-modules-dkms
 # Linters
 - ruby-lint
+- ruby-rdoc
+- ruby-racc
+- ruby-cliver
+- ruby-minitest
 - ruby-parser
 - ruby-ast
 - ruby-slop
@@ -337,11 +309,7 @@
 - libgmp-static
 - hadolint-bin
 - adr-tools
-# CheckOV
-# - python-checkov
-# - python-coverage-badge
-# - python-alabaster
-# - python-bc-python-hcl2
+- stylua-bin
 # Clear Linux Kernel
 - linux-clear
 # Google Drive
@@ -350,9 +318,8 @@
 - dotnet-core-bin
 # YADM
 - yadm
-# nginx
-- nginx-mainline-mod-lua
 # Power Panel for CyberPower UPS
+- paho-mqtt-c
 - powerpanel
 # Netdata Cloud package
 - netdata-cloud
@@ -363,6 +330,5 @@
 # Synology
 - synology-assistant
 # draw.io
-- drawio
 - drawio-desktop
 - drawio-desktop-bin
