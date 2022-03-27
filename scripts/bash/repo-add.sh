@@ -5,22 +5,22 @@ REPO=$(pwd)/private
 
 cd ${REPO}/new/${PKG_DIR//-auto/}
 
-echo "Loading packages in ${PKG_DIR//-auto}:"
+echo "==> Loading packages in ${PKG_DIR//-auto} into private/ repo..."
 find \
   -maxdepth 1 \
-      -iname '*.pkg.tar.zstd' \
-  -or -iname '*.pkg.tar.xz' \
+  -iname '*.pkg.tar.*' \
   -type f -printf '%f\n' | \
 while read PKG
 do
   ADD_OPTIONS="-R"
 
-  echo "Loading package ${PKG}"
-
   if [[ ! -e "${REPO}/${PKG}" ]]
   then
+    echo "--> Upgrading package ${PKG}"
     # Upgrade current version, not just override existing
     ADD_OPTIONS+=" -n"
+  else
+    echo "--> Adding package ${PKG}"
   fi
 
   mv "${PKG}" "${REPO}/${PKG}"
@@ -30,4 +30,5 @@ do
 done
 
 # Delete anything that hasn't been moved and added
+echo "==> Cleaning up unused fles"
 rm -f *

@@ -2,12 +2,8 @@
 - yadm-git
 # Starship CLI Tool
 - starship-git
-# NeoVim
-- neovim-git
 # Wayland Monitor Management
 - kanshi-git
 # Wayland Screen Sharing
 - xdg-desktop-portal-git
 - xdg-desktop-portal-wlr-git
-# Kubernetes
-- etcd-git

@@ -1,13 +1,19 @@
 ---
 - project:
-    name: aur-trigger
+    name: aur-list
     package: !include: aur-package-list.yaml
     jobs:
       - 'aur-package-{package}'
+
+- project:
+    name: aur-last-known-good
+    package:
+      - last-known-good
+    jobs:
       - 'aur-package-last-known-good'
 
 - project:
-    name: aur-auto
+    name: aur-git
     package: !include: aur-package-auto.yaml
     jobs:
       - 'aur-package-{package}-auto'

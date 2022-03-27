@@ -1,9 +1,6 @@
-- ansible-lint
 - bsdmainutils
 - cloudfoundry-cli
-- debian-whois-mkpasswd
 - dropbox
-- libgcrypt15
 - package-query
 - plex-media-server
 - plex-media-server-plexpass
@@ -16,56 +13,31 @@
 - vault-bin
 - yaourt
 - prelink
-- i3lock-blur
+- i3lockr-bin
 - apache-tools
-- adapta-gtk-theme
 - telegram-cli-git
-- libindicator
-- libappindicator
 - dee
-- libdbusmenu
-- geeqie-git
-- influxdb
+- vala0.52
 - logstash
-- kibana
+- kibana-bin
 - packetbeat-bin
 - topbeat-bin
 - filebeat-bin
-- gox
-- chef-dk
 - rack
 - openvpn-update-systemd-resolved
 - strongswan
-- google-breakpad-git
-- depot-tools-git
 - zoom
-- tautulli-beta
 - python-terminaltables
 - python-colorclass-git
-- python-jenkins-job-builder
-- python-python-jenkins
-- python-multi_key_dict
-- powerline-fonts
-- go-ethereum
 - jmeter
 - jmeter-plugins
 - jmeter-plugins-extraslib
 - jmeter-plugins-standard
-- go-bindata-git
 - ncurses5-compat-libs
-- headphones
 - pulseaudio-ctl
 - visual-studio-code-bin
-- neomutt
-- lightdm-webkit-greeter
 - lightdm-webkit2-clean
-- lightdm-webkit-theme-aether
-- lightdm-webkit-theme-material-git
-- antergos-wallpapers
 - gpmdp
-- gpmdp-remote
-- caddy
-- caddy-full-bin
 - libzkgroup
 - libsignal-client
 - signal-cli
@@ -75,33 +47,24 @@
 - xar
 - libmatthew-unix-java
 - keybase-bin
-- ghost
-- nodejs-lts-argon
-- ghost-desktop
 - solaar
 - solaar-git
 - pasystray
-- libopenssl-1.0-compat
 - adobe-base-14-fonts
 - remarkable
 - webkitgtk
 - polybar
 - lightdm-webkit2-theme-material2
-- lightdm-slick-greeter
 - todoist
 - jackett
 - qtwebkit
 - lidarr
-- drone
-- drone-cli
-- hugo-bin
 - sonarr
 - sonarr-develop
 - radarr
 - notify-osd-customizable
 - nvm
 - libluv
-- gocode-daemon
 - npapi-vlc
 - npapi-vlc-gtk3
 - wtfutil
@@ -117,8 +80,6 @@
 - powershell
 - powershell-bin
 - powershell-preview-bin
-- doctl
-- doctl-bin
 - ytt
 - python-undervolt
 - intel-undervolt
@@ -139,8 +100,6 @@
 - snapd-glib
 # Velero
 - velero-bin
-# Cloudflare SSL Service
-- cfssl
 # Google Cloud SDK
 - google-cloud-sdk
 # Kubernetes
@@ -178,7 +137,6 @@
 # Sway Menu
 - sgtk-menu
 - nwg-launchers
-- nwg-launchers-git
 - nwg-panel
 - wlr-randr
 # Hashicorp
@@ -200,19 +158,14 @@
 - rot8-git
 # Boot Screens
 - plymouth
-- plymouth-git
 - gdm-plymouth
 - plymouth-theme-arch-charge
 - plymouth-theme-dark-arch
 - plymouth-theme-monoarch
 # Secure Bootloaders
-- shim-signed
-- grub2-signing-extension
 # Fonts
 - ttf-mac-fonts
 - ttf-ms-fonts
-- consolas-font
-- ttf-consolas-powerline
 - ttf-iosevka
 - ttf-iosevka-slab
 - ttf-iosevka-type
@@ -245,8 +198,6 @@
 - ttf-iosevka-fixed-ss12
 - ttf-iosevka-fixed-ss13
 - ttf-iosevka-fixed-ss14
-# Games
-- openrct2
 # NodeJS
 - nodejs6-bin
 # AWS Tools
@@ -254,15 +205,13 @@
 - aws-session-manager-plugin
 - awslogs
 - copilot-cli-bin
-- amazon-workspacesclient
+- amazon-workspaces-bin
 - kube-aws
 # MongoDB Server & Tools
 - mongodb-bin
 - mongodb-compass
 - mongodb-tools-bin
 # Git Tools
-- git-delta
-- git-crypt
 - gitleaks
 # Spotify & Music
 - spotify
@@ -270,8 +219,8 @@
 - yamllint
 - yaml-language-server
 - yaml-language-server-bin
-# PAM Services
-- pam_ssh_agent_auth
+# Document
+- pdftk-bin
 - pod2man
 # Teams
 - teams
@@ -314,8 +263,6 @@
 - linux-clear
 # Google Drive
 - insync
-# dotNET
-- dotnet-core-bin
 # YADM
 - yadm
 # Power Panel for CyberPower UPS
@@ -332,3 +279,5 @@
 # draw.io
 - drawio-desktop
 - drawio-desktop-bin
+# Kernel Modules
+- kernel-modules-hook-reflink
