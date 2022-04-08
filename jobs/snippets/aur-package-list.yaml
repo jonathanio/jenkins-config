@@ -4,14 +4,12 @@
 - package-query
 - plex-media-server
 - plex-media-server-plexpass
-- qtpass
 - slack-desktop
 - sublime-text
 - sublime-text-dev
 - sublime-text-nightly
-- vault
-- vault-bin
 - yaourt
+- vault-bin
 - prelink
 - i3lockr-bin
 - apache-tools
@@ -25,7 +23,6 @@
 - filebeat-bin
 - rack
 - openvpn-update-systemd-resolved
-- strongswan
 - zoom
 - python-terminaltables
 - python-colorclass-git
@@ -168,8 +165,6 @@
 - ttf-ms-fonts
 - ttf-iosevka
 - ttf-iosevka-slab
-- ttf-iosevka-type
-- ttf-iosevka-type-slab
 - ttf-iosevka-ss02
 - ttf-iosevka-ss03
 - ttf-iosevka-ss05
