@@ -7,3 +7,5 @@
 # Wayland Screen Sharing
 - xdg-desktop-portal-git
 - xdg-desktop-portal-wlr-git
+# RGB Tools
+- openrgb-git
