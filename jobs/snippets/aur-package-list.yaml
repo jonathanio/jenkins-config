@@ -249,11 +249,9 @@
 - nodejs-markdownlint-cli
 - nodejs-jsonlint
 - nodejs-jslint
-- hadolint
 - libgmp-static
 - hadolint-bin
 - adr-tools
-- stylua-bin
 # Clear Linux Kernel
 - linux-clear
 # Google Drive
@@ -277,8 +275,11 @@
 # Kernel Modules
 - kernel-modules-hook-reflink
 # RGB Tools
-- openrgb
 - openrgb-bin
 - i2c-nct6775-dkms
 # Coding Tools
 - snyk
+# Jenkins Job Builder
+- python-jenkins-job-builder
+- python-python-jenkins
+- python-multi_key_dict
