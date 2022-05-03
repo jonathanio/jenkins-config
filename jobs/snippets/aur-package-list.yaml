@@ -253,3 +253,9 @@
 - python-jenkins-job-builder
 - python-python-jenkins
 - python-multi_key_dict
+# Cloudflare Tools
+- cloudflared
+- cloudflared-bin
+- cloudflare-warp-bin
+- cloudflare-wrangler
+- cloudflare-wrangler-bin
