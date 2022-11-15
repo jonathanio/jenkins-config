@@ -136,6 +136,8 @@
 - nwg-launchers
 - nwg-panel
 - wlr-randr
+- python-dasbus
+- nwg-icon-picker
 # Hashicorp
 - nomad
 - nomad-bin
@@ -150,6 +152,8 @@
 - terraform-docs-bin
 - boundary-bin
 - waypoint-bin
+- levant-bin
+- hcledit
 # Window Management
 - wdisplays-git
 - rot8-git
@@ -165,17 +169,20 @@
 - ttf-ms-fonts
 # NodeJS
 - nodejs6-bin
-# AWS Tools
+# AWS Toolsnwg-icon-picker
 - aws-cli-v2-bin
 - aws-session-manager-plugin
 - awslogs
 - copilot-cli-bin
 - amazon-workspaces-bin
+- icu63
+- webkit2gtk
 - kube-aws
 # MongoDB Server & Tools
 - mongodb-bin
 - mongodb-compass
 - mongodb-tools-bin
+- mongosh-bin
 # Git Tools
 - gitleaks
 # Spotify & Music
@@ -259,3 +266,7 @@
 - cloudflare-warp-bin
 - cloudflare-wrangler
 - cloudflare-wrangler-bin
+# AppGate SDP
+- appgate-sdp
+# Task
+- go-task-bin
