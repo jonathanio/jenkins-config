@@ -4,14 +4,13 @@
 - package-query
 - plex-media-server
 - plex-media-server-plexpass
-- slack-desktop
-- sublime-text
 - sublime-text-dev
-- sublime-text-nightly
+- sublime-text-2
+- sublime-text-3
+- sublime-text-4
 - yaourt
 - vault-bin
 - prelink
-- i3lockr-bin
 - apache-tools
 - telegram-cli-git
 - dee
@@ -33,7 +32,6 @@
 - ncurses5-compat-libs
 - pulseaudio-ctl
 - visual-studio-code-bin
-- lightdm-webkit2-clean
 - gpmdp
 - libzkgroup
 - libsignal-client
@@ -51,14 +49,7 @@
 - remarkable
 - webkitgtk
 - polybar
-- lightdm-webkit2-theme-material2
 - todoist
-- jackett
-- qtwebkit
-- lidarr
-- sonarr
-- sonarr-develop
-- radarr
 - notify-osd-customizable
 - nvm
 - libluv
@@ -121,6 +112,7 @@
 - skaffold-bin
 - kubelogin
 - kubetail
+- calicoctl-bin
 # LSI MegaRaid Utils
 - storcli
 - megacli
@@ -138,18 +130,10 @@
 - wlr-randr
 - python-dasbus
 - nwg-icon-picker
+- wev
 # Hashicorp
 - nomad
 - nomad-bin
-- tflint
-- tflint-bin
-- tfsec
-- tfenv
-- tfswitch
-- terraform-ls-bin
-- terraformer
-- terraformer-bin
-- terraform-docs-bin
 - boundary-bin
 - waypoint-bin
 - levant-bin
@@ -169,14 +153,13 @@
 - ttf-ms-fonts
 # NodeJS
 - nodejs6-bin
-# AWS Toolsnwg-icon-picker
+# AWS Tools
 - aws-cli-v2-bin
 - aws-session-manager-plugin
 - awslogs
 - copilot-cli-bin
 - amazon-workspaces-bin
 - icu63
-- webkit2gtk
 - kube-aws
 # MongoDB Server & Tools
 - mongodb-bin
@@ -191,6 +174,7 @@
 - yamllint
 - yaml-language-server
 - yaml-language-server-bin
+- prettierd
 # Document
 - pdftk-bin
 - pod2man
@@ -204,6 +188,7 @@
 - github-actions-bin
 - github-markdown-toc
 - gitkraken
+- gitkraken-cli
 # Chrome/Chromium
 - google-chrome
 - google-chrome-beta
@@ -238,8 +223,8 @@
 # Power Panel for CyberPower UPS
 - paho-mqtt-c
 - powerpanel
-# Netdata Cloud package
-- netdata-cloud
+# Netdata package
+- netdata-go-plugins
 # Mikrotik
 - winbox
 - winbox64
@@ -256,6 +241,7 @@
 - i2c-nct6775-dkms
 # Coding Tools
 - snyk
+- codeql
 # Jenkins Job Builder
 - python-jenkins-job-builder
 - python-python-jenkins
@@ -270,3 +256,56 @@
 - appgate-sdp
 # Task
 - go-task-bin
+# i3
+- i3lock-color
+- i3lockr-bin
+# GnuPG
+- gnupg23
+# xlights
+- xlights
+# Concourse
+- concourse
+# Altair
+- altair
+# GoLang
+- gomplate-bin
+- golangci-lint-bin
+# Slack
+- slack-desktop
+- slack-desktop-wayland
+# Terraform
+- tflint
+- tflint-bin
+- tfsec
+- tfenv
+- tfswitch
+- terraform-ls-bin
+- terraformer
+- terraformer-bin
+- terraform-docs-bin
+- terraform-tpm-bin
+- opa
+# Torrenting
+- jackett
+- lidarr
+- sonarr
+- sonarr-develop
+- radarr
+- flaresolverr
+- trackarr
+- python-selenium
+- python-trio-websocket
+# Scripts
+- bash-bats-file
+- bash-bats-detik
+# GNS3
+- gns3-server
+- gns3-gui
+- vpcs
+- ubridge
+- python-truststore
+# Proton Services
+- protonvpn-cli
+- protonvpn-gui
+- python-protonvpn-nm-lib
+- python-proton-client
