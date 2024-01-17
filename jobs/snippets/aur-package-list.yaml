@@ -46,11 +46,6 @@
 - webkitgtk
 - polybar
 - todoist
-- jackett
-- lidarr
-- sonarr
-- sonarr-develop
-- radarr
 - notify-osd-customizable
 - nvm
 - libluv
@@ -259,7 +254,7 @@
 - go-task-bin
 # GoLang
 - golangci-lint-bin
-- gompate-bin
+- gomplate-bin
 # Slack
 - slack-desktop
 - slack-desktop-wayland
