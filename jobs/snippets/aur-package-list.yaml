@@ -50,6 +50,11 @@
 - webkitgtk
 - polybar
 - todoist
+- jackett
+- lidarr
+- sonarr
+- sonarr-develop
+- radarr
 - notify-osd-customizable
 - nvm
 - libluv
@@ -64,7 +69,6 @@
 - systemd-boot-pacman-hook
 - pacman-cleanup-hook
 - pulumi-bin
-- wofi-hg
 - powershell
 - powershell-bin
 - powershell-preview-bin
@@ -138,6 +142,8 @@
 - waypoint-bin
 - levant-bin
 - hcledit
+- cdktf-cli
+- cdk8s-cli
 # Window Management
 - wdisplays-git
 - rot8-git
@@ -224,8 +230,6 @@
 # Power Panel for CyberPower UPS
 - paho-mqtt-c
 - powerpanel
-# Netdata package
-- netdata-go-plugins
 # Mikrotik
 - winbox
 - winbox64
@@ -257,56 +261,18 @@
 - appgate-sdp
 # Task
 - go-task-bin
-# i3
-- i3lock-color
-- i3lockr-bin
-# GnuPG
-- gnupg23
-# xlights
-- xlights
-# Concourse
-- concourse
-# Altair
-- altair
 # GoLang
-- gomplate-bin
 - golangci-lint-bin
 # Slack
 - slack-desktop
 - slack-desktop-wayland
-# Terraform
-- tflint
-- tflint-bin
-- tfsec
-- tfenv
-- tfswitch
-- terraform-ls-bin
-- terraformer
-- terraformer-bin
-- terraform-docs-bin
-- terraform-tpm-bin
-- opa
-# Torrenting
-- jackett
-- lidarr
-- sonarr
-- sonarr-develop
-- radarr
-- flaresolverr
-- trackarr
-- python-selenium
-- python-trio-websocket
-# Scripts
-- bash-bats-file
-- bash-bats-detik
-# GNS3
-- gns3-server
-- gns3-gui
-- vpcs
-- ubridge
-- python-truststore
-# Proton Services
-- protonvpn-cli
-- protonvpn-gui
-- python-protonvpn-nm-lib
-- python-proton-client
+# Sublime
+- sublime-text-2
+- sublime-text-3
+- sublime-text-4
+# ALHP Repos
+- alhp-keyring
+- alhp-mirrorlist
+# Framework
+- framework-system-git
+- fw-ectool-git
