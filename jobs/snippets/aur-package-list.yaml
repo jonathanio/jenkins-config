@@ -270,6 +270,8 @@
 - fw-ectool-git
 # Concourse
 - concourse
+# Altair GraphQL Client
+- altair
 # Terraform
 - tflint
 - tflint-bin
@@ -304,3 +306,7 @@
 - whatsapp-nativefier
 - nodejs-nativefier
 - whatsapp-for-linux
+# Seabird Client
+- seabird
+# xLights
+- xlights
