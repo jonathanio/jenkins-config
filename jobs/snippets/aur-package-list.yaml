@@ -87,13 +87,14 @@
 - google-cloud-sdk
 # Kubernetes
 - k3s-bin
+- k3s-1.29-bin
+- k3s-1.28-bin
+- k3s-1.27-bin
 - etcd
 - etcd-bin
 - kubectl-bin
-- lens-bin
 - kube-prompt
 - rancher-k3d-bin
-- cilium-cli-bin
 - hubble-bin
 - istio-bin
 - flux-bin
@@ -108,6 +109,9 @@
 - kubelogin
 - kubetail
 - calicoctl-bin
+# Lens
+- openlens-bin
+- lens-bin
 # LSI MegaRaid Utils
 - storcli
 - megacli
@@ -156,6 +160,7 @@
 - awslogs
 - copilot-cli-bin
 - amazon-workspaces-bin
+- hiredis0.14
 - icu63
 - kube-aws
 # MongoDB Server & Tools
@@ -246,7 +251,6 @@
 - cloudflared
 - cloudflared-bin
 - cloudflare-warp-bin
-- cloudflare-wrangler
 - cloudflare-wrangler-bin
 # AppGate SDP
 - appgate-sdp
@@ -294,6 +298,8 @@
 - trackarr
 - python-selenium
 - python-trio-websocket
+- python-xvfbwrapper
+- go.rice
 # Scripts
 - bash-bats-file
 - bash-bats-detik

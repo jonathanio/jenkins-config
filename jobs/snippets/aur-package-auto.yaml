@@ -9,3 +9,5 @@
 - xdg-desktop-portal-wlr-git
 # RGB Tools
 - openrgb-git
+# Docker CRI Interface
+- cri-dockerd-git
