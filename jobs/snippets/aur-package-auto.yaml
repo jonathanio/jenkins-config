@@ -11,3 +11,11 @@
 - openrgb-git
 # Docker CRI Interface
 - cri-dockerd-git
+# Kanshi
+- libscfg-git
+- gyosu-git
+# Hyprlang
+- hyprpaper-git
+- hyprlang-git
+# Solaar
+- python-hid-parser-git
