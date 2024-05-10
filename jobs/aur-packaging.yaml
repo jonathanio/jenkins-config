@@ -3,20 +3,20 @@
     name: aur-list
     package: !include: aur-package-list.yaml
     jobs:
-      - 'aur-package-{package}'
+      - "aur-package-{package}"
 
 - project:
     name: aur-last-known-good
     package:
       - last-known-good
     jobs:
-      - 'aur-package-last-known-good'
+      - "aur-package-last-known-good"
 
 - project:
     name: aur-git
     package: !include: aur-package-auto.yaml
     jobs:
-      - 'aur-package-{package}-auto'
+      - "aur-package-{package}-auto"
 
 - defaults:
     name: aur
@@ -66,10 +66,10 @@
       - ansicolor
     triggers:
       - pollscm:
-          cron: 'H H/6 * * *'
+          cron: "H H/6 * * *"
       # - timed: '@yearly'
     builders:
-      - shell: !include-raw-escape: build-package.sh
+      - shell: !include-raw-verbatim: build-package.sh
 
     publishers:
       - description-setter:
@@ -77,12 +77,12 @@
       - ssh:
           site: repo-manager
           target: private/new/aur-package-{package}
-          source: '*.pkg.tar.*'
-          command: !include-raw-escape: repo-add.sh
+          source: "*.pkg.tar.*"
+          command: !include-raw-verbatim: repo-add.sh
           timeout: 300000
           fail-on-error: true
       - archive:
-          artifacts: '*.pkg.tar.xz,*.pkg.tar.zst'
+          artifacts: "*.pkg.tar.xz,*.pkg.tar.zst"
           allow-empty: true
           only-if-success: true
       - workspace-cleanup:
@@ -97,37 +97,37 @@
 
 - job-template:
     name: aur-package-{package}
-    display-name: '{package}'
+    display-name: "{package}"
     defaults: aur
     scm:
       - git:
-          url: 'https://aur.archlinux.org/{package}.git'
+          url: "https://aur.archlinux.org/{package}.git"
           branches:
-            - '*/master'
+            - "*/master"
           skip-tag: true
 
 - job-template:
     name: aur-package-{package}-auto
-    display-name: '{package}'
+    display-name: "{package}"
     defaults: aur
     scm:
       - git:
-          url: 'https://aur.archlinux.org/{package}.git'
+          url: "https://aur.archlinux.org/{package}.git"
           branches:
-            - '*/master'
+            - "*/master"
           skip-tag: true
     triggers:
       - pollscm:
-          cron: '@hourly'
-      - timed: 'H H(1-6) * * 1'
+          cron: "@hourly"
+      - timed: "H H(1-6) * * 1"
 
 - job-template:
     name: aur-package-last-known-good
-    display-name: 'last-known-good'
+    display-name: "last-known-good"
     defaults: aur
     scm:
       - git:
-          url: 'https://github.com/jonathanio/aur-last-known-good.git'
+          url: "https://github.com/jonathanio/aur-last-known-good.git"
           branches:
-            - '*/master'
+            - "*/master"
           skip-tag: true

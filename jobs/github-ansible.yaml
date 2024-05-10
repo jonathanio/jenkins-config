@@ -3,11 +3,11 @@
     name: ansible-roles
     role: !include: ansible-roles-list.yaml
     jobs:
-      - 'ansible-role-{role}'
+      - "ansible-role-{role}"
 
 - defaults:
     name: ansible-role
-    display-name: 'ansible-role-{role}'
+    display-name: "ansible-role-{role}"
     description: |
       This project has been created, and is managed, by Jenkins Job Builder.
       Do not edit this via the web interface. Any changes may be lost at any
@@ -31,9 +31,9 @@
           num-to-keep: 50
     scm:
       - git:
-          url: 'https://github.com/jonathanio/ansible-role-{role}.git'
+          url: "https://github.com/jonathanio/ansible-role-{role}.git"
           branches:
-            - '**'
+            - "**"
           skip-tag: true
     wrappers:
       - workspace-cleanup
@@ -46,21 +46,21 @@
           permit-all: true
           white-list-target-branches:
             - master
-          status-context: 'test-kitchen(ec2)'
-          triggered-status: 'Request sent to Jenkins server...'
-          started-status: 'Running test-kitchen...'
-          success-status: 'All tests have passed.'
-          failure-status: 'One or more tests has/have failed.'
-          error-status: 'There was an error running the tests.'
-          build-desc-template: 'PR$pullId: $title'
+          status-context: "test-kitchen(ec2)"
+          triggered-status: "Request sent to Jenkins server..."
+          started-status: "Running test-kitchen..."
+          success-status: "All tests have passed."
+          failure-status: "One or more tests has/have failed."
+          error-status: "There was an error running the tests."
+          build-desc-template: "PR$pullId: $title"
     builders:
-      - shell: !include-raw-escape: kitchen-test.sh
+      - shell: !include-raw-verbatim: kitchen-test.sh
     publishers:
       - archive:
-          artifacts: '.kitchen/logs/*.log'
+          artifacts: ".kitchen/logs/*.log"
           allow-empty: true
           only-if-success: false
 
 - job-template:
-    name: 'ansible-role-{role}'
+    name: "ansible-role-{role}"
     defaults: ansible-role
