@@ -145,6 +145,7 @@
 # Boot Screens
 - plymouth
 - gdm-plymouth
+- gdm-settings
 - plymouth-theme-arch-charge
 - plymouth-theme-dark-arch
 - plymouth-theme-monoarch
@@ -155,6 +156,7 @@
 # NodeJS
 - nodejs6-bin
 # AWS Tools
+- aws-cli-v2
 - aws-cli-v2-bin
 - aws-session-manager-plugin
 - awslogs
@@ -331,3 +333,6 @@
 - nwg-displays
 - nwg-dock-hyprland
 - swaync
+- swww
+# XKCD Password Generator
+- xkcdpass
