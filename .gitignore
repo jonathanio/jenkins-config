@@ -10,3 +10,6 @@
 # Don't include live configuration
 jenkins_jobs.ini
 data.db
+
+# Ignore the Virtual Environment
+.venv

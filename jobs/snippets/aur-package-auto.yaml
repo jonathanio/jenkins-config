@@ -17,5 +17,10 @@
 # Hyprlang
 - hyprpaper-git
 - hyprlang-git
+- hyprutils-git
 # Solaar
 - python-hid-parser-git
+# Intel Power Daemon
+- intel-lpmd-git
+# DisplayLink
+- evdi-git

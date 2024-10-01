@@ -87,9 +87,6 @@
 - google-cloud-sdk
 # Kubernetes
 - k3s-bin
-- k3s-1.29-bin
-- k3s-1.28-bin
-- k3s-1.27-bin
 - etcd
 - etcd-bin
 - kubectl-bin
@@ -106,6 +103,7 @@
 - kubeseal-bin
 - kustomize-bin
 - skaffold-bin
+- kubecolor
 - kubelogin
 - kubetail
 - calicoctl-bin
@@ -256,8 +254,6 @@
 - cloudflare-wrangler-bin
 # AppGate SDP
 - appgate-sdp
-# Task
-- go-task-bin
 # GoLang
 - golangci-lint-bin
 - gomplate-bin
@@ -301,6 +297,7 @@
 - python-selenium
 - python-trio-websocket
 - python-xvfbwrapper
+- python-func-timeout
 - go.rice
 # Scripts
 - bash-bats-file
@@ -336,3 +333,36 @@
 - swww
 # XKCD Password Generator
 - xkcdpass
+# Intel Power Daemon
+- intel-lpmd
+# mkdocs
+- mkdocs
+- python-mdx-gh-links
+- python-mergedeep
+- python-pyyaml-env-tag
+- python-lunr
+- mkdocs-material
+- mkdocs-material-extensions
+- pymdown-extensions
+- mkdocs-minify-plugin
+- python-htmlmin2
+- python-jsmin
+- python-paginate
+- mkdocs-material-pymdownx-extras
+- mkdocs-git-revision-date-localized-plugin
+- mkdocs-git-committers-plugin-2
+- mkdocs-htmlproofer-plugin
+- python-mkdocs-section-index
+- python-mechanicalsoup
+- python-pytest-golden
+# Helm
+- helm-docs
+# DisplayLink
+- evdi
+# NATS
+- natscli
+- natscli-bin
+- nats-server
+- nats-server-bin
+# Jool
+- jool
