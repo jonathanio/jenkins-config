@@ -107,6 +107,8 @@
 - kubelogin
 - kubetail
 - calicoctl-bin
+- kubescape
+- kubent-bin
 # Lens
 - openlens-bin
 - lens-bin
@@ -172,6 +174,7 @@
 - gitleaks
 # Spotify & Music
 - spotify
+- spot-client
 # Language Tools
 - yamllint
 - yaml-language-server
@@ -190,6 +193,7 @@
 - github-desktop-bin
 - github-actions-bin
 - github-markdown-toc
+- github-copilot-cli
 - gitkraken
 - gitkraken-cli
 # Chrome/Chromium
@@ -272,6 +276,7 @@
 - fw-ectool-git
 # Concourse
 - concourse
+- yarn-berry
 # Altair GraphQL Client
 - altair
 # Terraform
@@ -299,6 +304,7 @@
 - python-xvfbwrapper
 - python-func-timeout
 - go.rice
+- prowlarr
 # Scripts
 - bash-bats-file
 - bash-bats-detik
@@ -307,6 +313,7 @@
 - protonvpn-gui
 - python-protonvpn-nm-lib
 - python-proton-client
+- python-pythondialog
 # WhatsApp
 - whatsapp-nativefier
 - nodejs-nativefier
@@ -353,6 +360,7 @@
 - mkdocs-git-committers-plugin-2
 - mkdocs-htmlproofer-plugin
 - python-mkdocs-section-index
+- properdocs
 - python-mechanicalsoup
 - python-pytest-golden
 # Helm
@@ -366,3 +374,42 @@
 - nats-server-bin
 # Jool
 - jool
+# Google Cloud
+- google-cloud-cli
+- google-cloud-cli-lite
+- google-cloud-cli-gke-gcloud-auth-plugin
+# PostgreSQL Barman
+- barman
+- python-mock
+# Aptakube
+- aptakube
+# Ceph
+- ceph-bin
+# GitGuardian
+- ggshield
+# LFK
+- lfk-bin
+# Authentik Platform Tools
+- authentik-platform-bin
+# Kiro
+- kiro-ide
+- kiro-cli
+# Kalc
+- kalc
+- kalc-bin
+# Neofetch
+- neofetch
+# PinAct
+- pinact
+- pinact-bin
+# Antigravity
+- antigravity
+- antigravity-ide
+- antigravity-manager-bin
+- antigravity-tools-bin
+# ntfy
+- ntfysh
+- ntfysh-bin
+- ntfydesktop
+# tofi
+- tofi

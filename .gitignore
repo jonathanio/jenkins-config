@@ -1,15 +1,2 @@
-# Don't include Vim and generic backup or temporary files
-.*.sw[a-z0-9]
-.sw[a-z0-9]
-*~
-
-# Ignore these Apple-specific directories
-.DS_Store
-.AppleDouble
-
-# Don't include live configuration
-jenkins_jobs.ini
-data.db
-
-# Ignore the Virtual Environment
-.venv
+# Created by venv; see https://docs.python.org/3/library/venv.html
+*
